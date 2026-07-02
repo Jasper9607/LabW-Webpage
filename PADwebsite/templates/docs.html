@@ -1,0 +1,305 @@
+<html lang="en" dir=ltr>
+
+<head>
+    <link rel="shortcut icon" href="../static/imgs/logo2.png" />
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/min.js"></script>
+    <script type="text/javascript" src="../static/js/fullpage.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>PAD Algorithm</title>
+    <link href="../static/css/maincss.css" rel="stylesheet">
+    <link href="../static/css/fullpage.css" rel="stylesheet">
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-ekOryaXPbeCpWQNxMwSWVvQ0+1VrStoPJq54shlYhR8HzQgig1v5fas6YgOqLoKz" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.11.0/css/bootstrap-tour-standalone.css" integrity="sha256-OdRIC3/VFxsszf6c8mx8eFrhtR3Ct8sxVXxZwonSUdg=" crossorigin="anonymous">
+
+    <!-- Material Design Bootstrap -->
+    <link href="../static/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha256-fzFFyH01cBVPYzl16KT40wqjhgPtq6FFUB6ckN2+GGw=" crossorigin="anonymous"></script>
+
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+    <style>
+        .tour-backdrop {
+            opacity: 0.5;
+        }
+        
+        .btn-primary {
+            color: #fff;
+            background-color: #151520;
+            border-color: #151520
+        }
+        
+        .btn {
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: 400;
+            text-align: center;
+            vertical-align: middle;
+            touch-action: manipulation;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            white-space: nowrap;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            border-radius: 4px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+        
+        .small-btn {
+            width: 20px;
+            height: 5px;
+        }
+    </style>
+</head>
+
+<body id="page-top" style="overflow-x: hidden;">
+    <!-- header for xl-->
+    <header>
+        <div class="d-none d-xl-block">
+            <div id="content-wrapper" class="d-flex flex-column">
+                <div class="container">
+                    <nav class="navbar fixed-top navbar-expand-md navbar-light white double-nav scrolling-navbar">
+                        <div class="navbar-nav" style="margin-left: 8rem">
+                            <a class="navbar-brand" href="#"><strong>Peak Associated DEG</strong></a>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                            <div class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle" href="#" id="themesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-fw fa-upload"></i> <strong>Data Processing</strong>
+                                </a>
+
+                                <div class="dropdown-menu border-0 shadow animate slideIn" aria-labelledby="navbarDropdown">
+
+                                    <div class="nav-item animated--grow-in">
+                                        <a class="nav-link" id="#uploadid" href={{ url_for( 'index') }}> <i class="fas fa-fw fa-arrow-up"></i> <span>Upload</span></a>
+                                    </div>
+                                    <div class="dropdown-divider"></div>
+                                    <div class="nav-item animated--grow-in">
+                                        <a class="nav-link animated--grow-in" href={{ url_for( 'example') }}> <i class="fas fa-fw fa-check-square"></i> <span>Supported formats</span></a>
+                                    </div>
+                                    <div class="dropdown-divider"></div>
+                                    <div class="nav-item animated--grow-in">
+                                        <a class="nav-link animated--grow-in" href={{ url_for( 'index') }}> <i class="fas fa-fw fa-rocket"></i> <span>Submit and run</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-fw fa-file" href="#"></i> <strong>Results</strong>
+                                </a>
+                                <div class="dropdown-menu border-0 shadow animate slideIn" aria-labelledby="navbarDropdown">
+                                    <div class="nav-item animated--grow-in">
+                                        <a class="nav-link " href={{ url_for( 'index') }}> <i class="fas fa-fw fa-chart-area"></i> <span>Result figure</span></a>
+                                    </div>
+                                    <div class="dropdown-divider"></div>
+                                    <div class="nav-item animated--grow-in">
+                                        <a class="nav-link " href={{ url_for( 'index') }}><i class="fas fa-fw fa-table"></i> <span>Result data</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-fw fa-file-archive"></i> <strong>Example</strong>
+                            </a>
+                            <div class="dropdown-menu border-0 shadow animate slideIn" aria-labelledby="navbarDropdown">
+                                <div class="nav-item animated--grow-in">
+                                    <a class="nav-link " href={{ url_for( 'example') }}> <i class="fas fa-fw fa-table"></i> <span>Example data</span></a>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <div class="nav-item animated--grow-in">
+                                    <a class="nav-link animated--grow-in" href={{ url_for( 'example') }}><i class="fas fa-fw fa-chart-area "></i> <span>Example result</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-item ">
+                            <a class="nav-link " href="#" target="_blank "><i class="fas fa-fw fa-book "></i><span><strong>Documentation</strong></span></a>
+                        </div>
+
+
+                        <div class="navbar-nav ml-auto " style="margin-right: 8rem; ">
+                            <a class="nav-link " href="http://labw.org/ ">
+                                <img src="../static/imgs/logo.png " height="50px; ">
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header for * less than xl-->
+    <header>
+        <div class="d-xl-none ">
+            <nav class="navbar fixed-top navbar-expand-md navbar-light white double-nav scrolling-navbar">
+                <div class="navbar-nav " style="margin-left: 33%;">
+                    <a class="navbar-brand " href={{ url_for( "index")}}><strong>Peak Associated DEG</strong></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--nav bar for * less than xl-->
+    <div id="fp-nav" class="fp-show-active position-fixed nav-position loaded notransition transition-desktop-mobile d-xl-none" style="top:140px">
+        <ul>
+            <a class="nav-link dropdown-toggle animated--grow-in" href="#" id="themesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 20px;margin-left: 0.75rem;">
+                <i class="fas fa-fw fa-bars"></i>
+            </a>
+            <div class="dropdown-menu border-0 shadow animate slideIn" aria-labelledby="navbarDropdown" style="width:max-content;margin-left: 3rem;">
+
+                <div class="nav-item animated--grow-in">
+                    <a class="nav-link" id="#uploadid" href={{ url_for( 'index') }}> <i class="fas fa-fw fa-arrow-up"></i> <span>Upload</span></a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link animated--grow-in" href={{ url_for( 'example') }}> <i class="fas fa-fw fa-check-square"></i> <span>Supported formats</span></a>
+                </div>
+                <div class="nav-item animated--grow-in">
+                    <a class="nav-link" href={{ url_for( 'index') }}> <i class="fas fa-fw fa-rocket"></i> <span>Submit and run</span></a>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="nav-item">
+                    <a class="nav-link animated--grow-in" href={{ url_for( 'index') }}> <i class="fas fa-fw fa-chart-area"></i> <span>Result figure</span></a>
+                </div>
+
+                <div class="nav-item">
+                    <a class="nav-link animated--grow-in" href={{ url_for( 'index') }}><i class="fas fa-fw fa-table"></i> <span>Result data</span></a>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="nav-item">
+                    <a class="nav-link animated--grow-in" href="#"><i class="fas fa-fw fa-book"></i><span>Documentation</span></a>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="nav-item">
+                    <a class="nav-link animated--grow-in" href={{ url_for( 'example') }}> <i class="fas fa-fw fa-chart-area"></i> <span>Example data</span></a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link animated--grow-in" href={{ url_for( 'example') }}><i class="fas fa-fw fa-table"></i> <span>Example result</span></a>
+                </div>
+
+            </div>
+        </ul>
+    </div>
+    <img src="../static/imgs/top.svg" width="110%" style="margin-bottom:-1px" class="footer-bg">
+    <!--Main Content-->
+    <div class="wrapper">
+        <div>
+            <div>
+                <div class="container-fluid animated--grow-in" style="margin-left: 8rem; margin-right: 8rem; width: 80%;">
+                    <div class="row">
+                        <section class='main-content '>
+                            <div class="light">
+                                <h1>Introduction</h1>
+                                <p> We are preparing for the documentation </p> <img src="../static/imgs/d_tuzi.png" alt="rabbit" />
+                                <h1>Term of use</h1>
+                                <h1>About us</h1>
+                                <h1></h1>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br></br>
+    <br></br>
+    <br></br>
+    <!--Footer Links-->
+    <img src="../static/imgs/bottom.svg" width="110%" style="margin-bottom:-1px" class="footer-bg">
+    <div class="footer-bg-solid">
+        <div class="footer-bg" style="width:110%; background-color:#775DFF;">
+            <div class="row" style="width:80%;text-align: center;margin-left: 3rem;">
+                <!--First column-->
+                <div class="col-md-4">
+                    <h5 class="text-uppercase font-weight-bold mb-4 text-white">Get in touch </h5>
+                    <h6 class="text-upper case font-weight-bold text-white"> Mailing address</h6>
+                    <div class="text-white" style="line-height:16px">
+                        <p>A314, ZJU-UoE Institute,</p>
+                        <p>718 East Haizhou Rd.,</p>
+                        <p> Haining, Zhejiang 314400,</p>
+                        <p> P.R. China</p>
+                        <p>
+                            <a href="mailto:wanluliu@intl.zju.edu.cn" class="link_in_text text-white"> <i class="fas fa-fw fa-envelope"></i> <u>wanluliu@intl.zju.edu.cn</u></a>
+                        </p>
+                    </div>
+                </div>
+                <!--/.First column-->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!--Second column-->
+                <div class="col-md-4">
+                    <h5 class="text-uppercase font-weight-bold mb-4 text-white">About</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="#!">Term of use</a></li>
+                        <li><a class="text-white" href="#!">About us</a></li>
+                        <li><a class="text-white" href="#!">Report an issue</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!--Third column-->
+                <div class="col-md-4">
+                    <h5 class="text-uppercase font-weight-bold mb-4 text-white"> Other links </h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="http://labw.org/">Lab website</a></li>
+                        <li><a class="text-white" href="http://zje.intl.zju.edu.cn/en">ZJU-UOE institute</a></li>
+                        <li><a class="text-white" href="https://www.intl.zju.edu.cn/">International campus of ZJU</a></li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+            </div>
+        </div>
+        <!--/.Footer Links-->
+        <div class="footer-bg" style="width:110%; background-color:#775DFF;">
+            <div class="row" class="footer text-center text-white" style="width:80%;text-align: center;margin-left: 3rem;">
+                <!--First column-->
+                <div class="col-md-4 ">
+                </div>
+                <div class="col-md-4 ">
+                    <!--Social buttons-->
+                    <br>
+                    <div class="footer ">
+                        <div class=" list-unstyled list-inline ">
+                            <li class="list-inline-item "><a class="btn-floating btn-fb "><i class="fab fa-facebook-f text-white "> </i></a></li>
+                            <li class="list-inline-item "><a class="btn-floating btn-tw "><i class="fab fa-twitter text-white "> </i></a></li>
+                            <li class="list-inline-item "><a class="btn-floating btn-gplus "><i class="fab fa-google-plus-g text-white "> </i></a></li>
+                            <li class="list-inline-item "><a class="btn-floating btn-li "><i class="fab fa-linkedin-in text-white "> </i></a></li>
+                            <li class="list-inline-item "><a class="btn-floating btn-git "><i class="fab fa-github text-white "> </i></a></li>
+                        </div>
+                        <br>
+                        <br>
+                        <strong class="text-white ">© LAB W | All right reserved </a></strong>
+                    </div>
+
+                    <!--Copyright-->
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="col-md-4 ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

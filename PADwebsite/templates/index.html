@@ -1,0 +1,680 @@
+<html id="ng-index">
+
+<head>
+    <link rel="shortcut icon" href="../static/imgs/logo2.png" />
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/min.js"></script>
+    <script type="text/javascript" src="../static/js/fullpage.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>PAD Algorithm</title>
+    <link href="../static/css/maincss.css" rel="stylesheet">
+    <link href="../static/css/fullpage.css" rel="stylesheet">
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="../static/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-ekOryaXPbeCpWQNxMwSWVvQ0+1VrStoPJq54shlYhR8HzQgig1v5fas6YgOqLoKz" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha256-fzFFyH01cBVPYzl16KT40wqjhgPtq6FFUB6ckN2+GGw=" crossorigin="anonymous"></script>
+
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+    <style>
+        .tour-backdrop {
+            opacity: 0.5;
+        }
+        
+        .btn-primary {
+            color: #fff;
+            background-color: #151520;
+            border-color: #151520
+        }
+        
+        .btn {
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: 400;
+            text-align: center;
+            vertical-align: middle;
+            touch-action: manipulation;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            white-space: nowrap;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            border-radius: 4px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+        
+        .color-circle {
+            width: 10px;
+            height: 10px;
+            padding: 2px 0px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 12px;
+            line-height: 1.42857;
+        }
+    </style>
+</head>
+
+<body id="page-top">
+    <!-- header for xl-->
+    <header>
+        <div class="d-none d-xl-block">
+            <nav class="navbar fixed-top navbar-expand-md navbar-light white scrolling-navbar">
+                <div class="navbar-nav" style="margin-left: 8rem">
+                    <a class="navbar-brand" href="#dashboard"><strong>Peak Associated DEG</strong></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle animated--grow-in" href="#" id="themesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-fw fa-upload"></i> <strong>Data Processing</strong>
+                        </a>
+
+                        <div class="dropdown-menu border-0 shadow animate slideIn" aria-labelledby="navbarDropdown">
+
+                            <div class="nav-item animated--grow-in">
+                                <a class="nav-link" id="#uploadid" href="#upload_data"> <i class="fas fa-fw fa-arrow-up"></i> <span>Upload</span></a>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <div class="nav-item animated--grow-in">
+                                <a class="nav-link" href={{ url_for( "example") }} target="_blank"> <i class="fas fa-fw fa-check-square"></i> <span>Supported formats</span></a>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <div class="nav-item animated--grow-in">
+                                <a class="nav-link animated--grow-in" href="#run"> <i class="fas fa-fw fa-rocket"></i> <span>Submit and run</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle animated--grow-in" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-fw fa-file" href="#"></i> <strong>Results</strong>
+                        </a>
+                        <div class="dropdown-menu border-0 shadow animate slideIn" aria-labelledby="navbarDropdown">
+                            <div class="nav-item animated--grow-in">
+                                <a class="nav-link" href="#resultFigure"> <i class="fas fa-fw fa-chart-area"></i> <span>Result figure</span></a>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <div class="nav-item animated--grow-in">
+                                <a class="nav-link" href="#resultData"><i class="fas fa-fw fa-table"></i> <span>Result data</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active animated--grow-in" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                        <i class="fas fa-fw fa-file-archive"></i> <strong>Example</strong>
+                    </a>
+                    <div class="dropdown-menu border-0 shadow animate slideIn" aria-labelledby="navbarDropdown">
+                        <div class="nav-item animated--grow-in">
+                            <a class="nav-link" href={{ url_for( "example") }} target="_blank"> <i class="fas fa-fw fa-table"></i> <span>Example data</span></a>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <div class="nav-item animated--grow-in">
+                            <a class="nav-link" href={{ url_for( "example") }} target="_blank"> <i class="fas fa-fw fa-chart-area"></i> <span>Example result</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-item animated--grow-in">
+                    <a class="nav-link animated--grow-in" href={{ url_for( "docs") }} target="_blank"><i class="fas fa-fw fa-book"></i><span><strong>Documentation</strong></span></a>
+                </div>
+
+
+                <div class="navbar-nav ml-auto" style="margin-right: 8rem;">
+                    <a class="nav-link" href="http://labw.org/">
+                        <img src="../static/imgs/logo.png" height="50px;">
+                    </a>
+                </div>
+            </nav>
+        </div>
+        </div>
+    </header>
+    <!-- /.header for xl-->
+    <!-- header for * less than xl-->
+    <header>
+        <div class="d-xl-none">
+            <nav class="navbar fixed-top navbar-expand-md navbar-light white double-nav scrolling-navbar">
+                <div class="navbar-nav" style="margin-left: 33%;">
+                    <a class="navbar-brand" href="#dashboard" style="text-align: center;"><strong>Peak Associated DEG</strong></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- /.header for * less than xl-->
+    <!--nav bar for * less than xl-->
+    <div id="fp-nav" class="fp-show-active position-fixed nav-position loaded notransition transition-desktop-mobile d-xl-none" style="top:140px">
+        <ul>
+            <a class="nav-link dropdown-toggle animated--grow-in" href="#" id="themesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 20px;margin-left: 0.75rem;">
+                <i class="fas fa-fw fa-bars"></i>
+            </a>
+            <div class="dropdown-menu border-0 shadow animate slideIn" aria-labelledby="navbarDropdown" style="width:max-content;margin-left: 3rem;">
+
+                <div class="nav-item animated--grow-in">
+                    <a class="nav-link" id="#uploadid" href="#upload_data"> <i class="fas fa-fw fa-arrow-up"></i> <span>Upload</span></a>
+                </div>
+                <div class="nav-item animated--grow-in">
+                    <a class="nav-link" href={{ url_for( "example") }} target="_blank"> <i class="fas fa-fw fa-check-square"></i> <span>Supported formats</span></a>
+                </div>
+                <div class="nav-item animated--grow-in">
+                    <a class="nav-link" href="#submitandrun"> <i class="fas fa-fw fa-rocket"></i> <span>Submit and run</span></a>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="nav-item animated--grow-in">
+                    <a class="nav-link" href="#resultFigure"> <i class="fas fa-fw fa-chart-area"></i> <span>Result figure</span></a>
+                </div>
+
+                <div class="nav-item">
+                    <a class="nav-link animated--grow-in" href="#resultData"><i class="fas fa-fw fa-table"></i> <span>Result data</span></a>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="nav-item">
+                    <a class="nav-link animated--grow-in" href={{ url_for( "docs") }}><i class="fas fa-fw fa-book"></i><span>Documentation</span></a>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="nav-item">
+                    <a class="nav-link animated--grow-in" href={{ url_for( "example") }} target="_blank"> <i class="fas fa-fw fa-table"></i> <span>Example data</span></a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link animated--grow-in" href={{ url_for( "example") }} target="_blank"><i class="fas fa-fw fa-chart-area"></i> <span>Example result</span></a>
+                </div>
+            </div>
+        </ul>
+    </div>
+    <!--/.nav bar for * less than xl-->
+    <img src="../static/imgs/top.svg" width="110%" style="margin-bottom:-1px" class="footer-bg">
+    <div class="wrapper">
+        <div>
+            <a id="dashboard" style="display:block;height:80px;margin-top:-80px;"></a>
+            <div class="container-fluid animated--grow-in" style="margin-left: 8rem; margin-right: 8rem">
+                <div class="col-xl-10 col-lg-10">
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                            <h6 class="m-0 font-weight-bold text-primary">&nbsp;&nbsp;<b>Peak Associated DEG </b>: Finding Peaks Associated differentially expressed genes </h6>
+                            <div id="documentation-button" class="progress-button" style="float:right;zoom:50%;width: min-content;height: min-content">
+                                <a id="docsid" href={{ url_for( "docs") }} target="_blank">
+                                    <button name="submit" value="input"> 
+                                                <span><i class="fas fa-book fa-sm"></i><strong> Documentation</strong></span>
+                                            </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div>
+                                <div class="row" id="previewfull">
+                                    <div class="col-7">
+                                        <img src="../static/imgs/Research2_tmp.png" width="80%">
+                                    </div>
+                                    <div class="col-4" id="shortstory" style="margin-left: 1rem">
+                                        <b style="font-size:large;color:#151520">Welcome!</b>
+                                        <p style="font-size:large;text-align:justify"><b> Peak Associated DEG
+                                                (PAD) </b> is a tool to find peaks associated differentially expressed genes </p>
+                                        <p style="font-size:large;text-align:justify"> See supported format for upload in the <a href={{ url_for( "example") }} target="_blank"> example</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="inputdata">
+                <a name="upload_data" style="display:block;height:80px;margin-top:-80px;"></a>
+                <div class="container-fluid animated--grow-in" style="margin-left: 8rem;margin-right: 8rem;">
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-10" style="margin-top: 2rem;">
+                            <div class="card shadow mb-4">
+                                <form action="" method="POST" enctype="multipart/form-data">
+                                    <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                        <h6 class="m-0 font-weight-bold text-primary">Upload Data </h6>
+                                        <div id="upload-button" class="progress-button" style="float:right;zoom:50%;width: min-content;height: min-content;">
+                                            <button name="submit" value="file"> <i class="fas fa-fw fa-upload"></i> <span><strong>Upload</strong></span></button>
+                                        </div>
+                                    </div>
+                                    <div class="card-body" style="height: 35.5rem;">
+                                        <div id="deglist" class="list-group-item" style="border-color: #fff;">
+                                            <h6 class="m-0 font-weight-bold text-primary">DEG list</h6>
+                                            <p> Please upload your DEG data </p>
+                                            <div class="input">
+                                                <span> Upregulated genes:</span>
+                                                <ul class="inputs-list" style="margin: 1rem;">
+                                                    <label class="radio" for="fgChoiceFile1">
+                                                        <input type="radio" id="fgChoiceFile1" name="upregulated_genes" value="file" checked="checked" class="hidden" onclick="switchFg1(this.value)" style="margin-top:7px"><span class="label"></span>
+                                                        <input type="file" id="fgFile1" name="upregulated_genes" size="54" maxlength="4096" disabled="">
+                                                    </label>
+                                                    <br>
+                                                    <label class="radio" for="fgChoiceData1">
+                                                        <input type="radio" id="fgChoiceData1" name="upregulated_genes" class="hidden" value="data" onclick="switchFg1(this.value)"><span class="label"></span>
+                                                        <textarea id="fgData1" name="upregulated_genes_text" cols="45"></textarea>
+                                                    </label>
+                                                </ul>
+                                                <span> Downregulated genes:</span>
+                                                <ul class="inputs-list" style="margin: 1rem;">
+                                                    <label class="radio" for="fgChoiceFile2">
+                                                        <input type="radio" id="fgChoiceFile2" name="downregulated_genes" value="file" checked="checked" class="hidden" onclick="switchFg2(this.value)" style="margin-top:7px"><span class="label"></span>
+                                                        <input type="file" id="fgFile2" name="downregulated_genes" size="54" maxlength="4096" disabled="">
+                                                    </label>
+                                                    <br>
+                                                    <label class="radio" for="fgChoiceData2">
+                                                        <input type="radio" id="fgChoiceData2" name="downregulated_genes" class="hidden" value="data" onclick="switchFg2(this.value)"><span class="label"></span>
+                                                        <textarea id="fgData2" name="downregulated_genes_text" cols="45"></textarea>
+                                                    </label>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div id="peakfile" class="list-group-item" style="border-color: #fff;">
+                                                <h6 class="m-0 font-weight-bold text-primary">Peaks file </h6>
+                                                <p> Please upload your peaks file </p>
+                                                <div class="input">
+                                                    <label stype="margin-top5px">
+                                                        <span>Peaks file:
+                                                            <input type="file" name="peak" placeholder="Upload file"/>                                                        
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {% if msg and msg.get("file") %}
+                                        <code>{{ msg.get("file") }}</code> {% endif %}
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <a name="run" style="display:block;height:80px;margin-top:-80px;"></a>
+                        <div id="parameter_col" class="col-xl-5 col-lg-10" style="margin-top: 2rem;">
+                            <div class="card shadow mb-4">
+                                <a name="submitandrun" style="display:block;height:80px;margin-top:-80px;"></a>
+                                <form action="" method="POST" enctype="multipart/form-data">
+                                    <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                        <h6 class="m-0 font-weight-bold text-primary"> Submit options </h6>
+                                        <div id="submit-button" class="progress-button" style="float:right;zoom:50%;width: min-content;height: min-content">
+                                            <button name="submit" value="input"> <i class="fas fa-fw fa-rocket"></i><span><strong> Submit</strong></span></button>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="list-group-item form-group" style="border-color: #fff;">
+                                            <div class="m-0 font-weight-bold text-primary">
+                                                <p style="text-align:left;"> Species Assembly
+                                                    <a class="nav-link" href="http://genome.ucsc.edu/" target="_blank" style="float:right;">
+                                                        <i class="fas fa-fw fa-database"></i>
+                                                        <span>Gemome browser</span>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <p> Please choose the species assembly you want to use </p>
+                                            <div id="species-group" class="form-group">
+
+                                                <ul>
+                                                    <li>
+                                                        <label for="hg38" class="radio">
+                                                <input type="radio" name="species" ng-model="formData.species"
+                                                       value="hg38" id="hg38" class="hidden">
+                                                <span class="label"></span> Human: GRCh38 <a
+                                                        href="http://genome.ucsc.edu/cgi-bin/hgGateway?db=hg38"
+                                                        target="_blank">(UCSC hg38, Dec. 2013)</a>
+                                                </label>
+                                                    </li>
+                                                    <li>
+                                                        <label for="hg37" class="radio">
+                                                    <input type="radio" name="species" ng-model="formData.species"
+                                                           value="hg37" id="hg37" class="hidden">
+                                                           <span class="label"></span> Human: hg37 <a
+                                                            href="http://genome.ucsc.edu/cgi-bin/hgGateway?db=hg19"
+                                                            target="_blank">(UCSC hg37, Feb. 2009)</a>
+                                                    </label>
+                                                    </li>
+                                                    <li>
+                                                        <label for="mm10" class="radio">
+                                                <input type="radio" name="species" ng-model="formData.species"
+                                                       value="mm10" id="mm10" class="hidden">
+                                                       <span class="label"></span> Mouse: mm10 <a
+                                                        href="http://genome.ucsc.edu/cgi-bin/hgGateway?db=mm10"
+                                                        target="_blank">(UCSC mm10, Dec. 2011)</a>
+                                                </label>
+                                                    </li>
+                                                    <li>
+                                                        <label for="mm9" class="radio">
+                                                <input type="radio" name="species" ng-model="formData.species"
+                                                       value="mm9" id="mm9" class="hidden">
+                                                       <span class="label"></span> Mouse: mm9 <a
+                                                        href="http://genome.ucsc.edu/cgi-bin/hgGateway?db=mm9"
+                                                        target="_blank">(UCSC mm9, Jul. 2007)</a>
+                                                </label>
+                                                    </li>
+                                                    <li>
+                                                        <label for="TAIR10" class="radio">
+                                                    <input type="radio" name="species" ng-model="formData.species"
+                                                       value="TAIR10" id="TAIR10" class="hidden">
+                                                       <span class="label"></span> TAIR10 <a
+                                                        href="http://genome.ucsc.edu/cgi-bin/hgGateway?db=mm9"
+                                                        target="_blank">(UCSC TAIR10, Jul. 2007)</a>
+                                                </label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div id="distance-group" class="form-group">
+                                                        <h6 class="m-0 font-weight-bold text-primary">Distance</h6>
+                                                        <p> Please type in the distance you want to analyze </p>
+
+                                                        <div>
+                                                            <input type="text" name="distance" class="form-control" placeholder="default=1000000" ng-model="formData.distance">
+                                                            <span class="help-block"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div id="color-scale" class="form-group">
+                                                        <h6 class="m-0 font-weight-bold text-primary">Color</h6>
+                                                        <p> Please choose a set of colors you want to use in the result </p>
+                                                        <div class="w3-col l4 m12" style="text-align:center;">
+                                                            <a class="nav-link" href="#" id="colorsDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                <div class="color-palette" id="color-palette">
+                                                                    <svg width="50%" height="50%" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                                                                        <circle cx="255.999" cy="255.999" r="255.999" style="fill:rgb(43,138,154);"/>
+                                                                        <path d="M437.018,74.98C394.063,35.249 344.547,1.8 257.017,1.658L255.999,255.999L437.018,74.98Z" style="fill:rgb(28,114,135);fill-rule:nonzero;"/>
+                                                                        <path d="M256.001,0C190.484,0 124.967,24.993 74.98,74.98L255.999,255.999L256.001,0Z" style="fill:rgb(22,92,108);fill-rule:nonzero;"/>
+                                                                        <path d="M256.387,511.927C370.063,508.086 410.007,462.147 437.018,437.018L255.999,255.999L256.387,511.927Z" style="fill:rgb(248,178,66);fill-rule:nonzero;"/>
+                                                                        <path d="M74.982,437.018C124.969,487.005 191.157,511.998 256.001,511.998L256.001,255.999L74.982,437.018Z" style="fill:rgb(208,152,56);fill-rule:nonzero;"/>
+                                                                        <path d="M437.018,74.98L255.999,255.999L437.018,437.018C536.993,337.044 536.993,174.954 437.018,74.98Z" style="fill:rgb(228,85,39);fill-rule:nonzero;"/>
+                                                                    </svg>
+                                                                </div>
+                                                            </a>
+                                                            <!--Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
+                                                            <div class="dropdown-menu" aria-labelledby="colorsDropdown" style="padding:0%;border-color: #fff;">
+                                                                <div class="row color-picker animated--grow-in">
+                                                                    <div class="color-picker__item">
+                                                                        <input type="radio" name="color" id="col1" value="2096ff05ffa3" class="color-picker__input">
+                                                                        <label for="col1" class="color-picker__color color-picker__color--color1"></label>
+                                                                    </div>
+
+                                                                    <div class="color-picker__item">
+                                                                        <input type="radio" name="color" id="col2" value="bb0000000000" class="color-picker__input" style="margin-left: 2rem;">
+                                                                        <label for="col2" class="color-picker__color color-picker__color--color2"></label>
+                                                                    </div>
+                                                                    <div class="color-picker__item">
+                                                                        <input type="radio" name="color" id="col3" value="4f9c22380770" class="color-picker__input" style="margin-left: 2rem;">
+                                                                        <label for="col3" class="color-picker__color color-picker__color--color3"></label>
+                                                                    </div>
+
+                                                                    <div class="color-picker__item">
+                                                                        <input type="radio" name="color" id="col4" value="082373F29C7F" class="color-picker__input" style="margin-left: 2rem;">
+                                                                        <label for="col4" class="color-picker__color color-picker__color--color4"></label>
+                                                                    </div>
+                                                                    <div class="color-picker__item">
+                                                                        <input type="radio" name="color" id="col5" value="036779D9E3C0" class="color-picker__input">
+                                                                        <label for="col5" class="color-picker__color color-picker__color--color5"></label>
+                                                                    </div>
+
+                                                                    <div class="color-picker__item">
+                                                                        <input type="radio" name="color" id="col6" value="0564388FA6D2" class="color-picker__input" style="margin-left: 2rem;">
+                                                                        <label for="col6" class="color-picker__color color-picker__color--color6"></label>
+                                                                    </div>
+                                                                    <div class="color-picker__item">
+                                                                        <input type="radio" name="color" id="col7" value="29414099BC46" class="color-picker__input" style="margin-left: 2rem;">
+                                                                        <label for="col7" class="color-picker__color color-picker__color--color7"></label>
+                                                                    </div>
+
+                                                                    <div class="color-picker__item">
+                                                                        <input type="radio" name="color" id="col8" value="D5A4311E3758" class="color-picker__input" style="margin-left: 2rem;">
+                                                                        <label for="col8" class="color-picker__color color-picker__color--color8"></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div id="distance-group" class="form-group" style="border: #fff;">
+                                                        <h6 class="m-0 font-weight-bold text-primary"> Title for PDF to export </h6>
+                                                        <p> Please type in the title for pdf file to export </p>
+                                                        <div>
+                                                            <input type="text" name="title" class="form-control" placeholder="Peak Associated DEGs" ng-model="formData.title">
+                                                            <span class="help-block"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div id="email-group" class="form-group" style="border: #fff;">
+                                                        <h6 class="m-0 font-weight-bold text-primary"> Your email </h6>
+                                                        <P> Please type in your email (optional) </P>
+                                                        <div>
+                                                            <input type="text" name="email" class="form-control" ng-model="formData.email">
+                                                            <span class="help-block"></span>
+                                                        </div>
+                                                    </div>
+                                                    </row>
+                                                </div>
+                                            </div>
+                                            {% if msg and msg.get("input") %}
+                                            <code>{{ msg.get("input") }}</code> {% endif %}
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% if msg and msg.get("uid") %}
+        <a name="resultFigure" style="display:block;height:80px;margin-top:-80px;" id="result"></a>
+        <div class="container-fluid animated--grow-in" style="margin-left: 8rem; margin-right: 8rem;">
+            <div class="row">
+                <div class="col-xl-5 col-lg-10">
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                            <h6 class="m-0 font-weight-bold text-primary">&nbsp;&nbsp;Results figure</h6>
+                            <div class="dropdown no-arrow">
+                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i></a>
+                                <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                                    <div class="dropdown-header">Export options:</div>
+                                    <a class="dropdown-item" href="../static/file/Peak Associated DEGs-{{ msg.get('uid') }}.png" download="Peak Associated DEGs.png">Export as *.png</a>
+                                    <a class="dropdown-item" href="../static/file/Peak Associated DEGs-{{ msg.get('uid') }}.svg" download="Peak Associated DEGs.svg">Export as *.svg</a>
+                                    <a class="dropdown-item" href="../static/file/Peak Associated DEGs-{{ msg.get('uid') }}.pdf" download="Peak Associated DEGs.pdf">Export as *.pdf</a>
+                                    <div class="dropdown-divider"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="col-12">
+                                <img src="../static/file/Peak Associated DEGs-{{ msg.get('uid') }}.png" style="width: 100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="result_data_col" class="col-xl-5 col-lg-10">
+                    <a name="resultData" style="display:block;height:80px;margin-top:-80px;"></a>
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                            <h6 class="m-0 font-weight-bold text-primary">&nbsp;Results data</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart-area" style="height: 150px;">
+                                <li style="margin-top: 5px"><a href="../static/file/PAD_genename_distance-{{ msg.get('uid') }}.txt" download="PAD_genename_distance.txt">PAD_genename_distance.txt</a></li>
+                                <li style="margin-top: 5px"><a href="../static/file/PAD_genecount_pvalue-{{ msg.get('uid') }}.txt" download="PAD_genecount_pvalue.txt">PAD_genecount_pvalue.txt</a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        <a id="reference" style="display:block;height:80px;margin-top:-80px;"></a>
+        <div class="container-fluid animated--grow-in" style="margin-left: 8rem; margin-right: 8rem; margin-top: 2rem;">
+            <div class="col-xl-10 col-lg-10">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                        <h6 class="m-0 font-weight-bold text-primary">&nbsp;&nbsp; Reference</h6>
+                        <div id="documentation-button" class="progress-button" style="float:right;zoom:50%;width: min-content;height: min-content">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <ol>
+                                <li>
+                                    Pastor, W.A., Liu, W., Chen, D., Ho, J., Kim, R., Hunt, T.J., Lukianchikov, A., Liu, X., Polo, J.M., Jacobsen, S.E. & Clark, A.T. (2018) TFAP2C regulates transcription in human naive pluripotency by opening enhancers. <i>Nature cell biology</i>,
+                                    20, 553-564.
+                                </li>
+                                <li>
+                                    Harris, C.J., Scheibe, M., Wongpalee, S.P., Liu, W., Cornett, E.M., Vaughan, R.M., Li, X., Chen, W., Xue, Y., Zhong, Z., Yen, L., Barshop, W.D., Rayatpisheh, S., Gallego-Bartolome, J., Groth, M., Wang, Z., Wohlschlegel, J.A., Du, J., Rothbart, S.B., Butter,
+                                    F. & Jacobsen, S.E. (2018) A DNA methylation reader complex that enhances gene transcription. <i>Science (American Association for the Advancement of Science)</i>, 362, 1182-1186.
+                                </li>
+                                <li>Gallego-Bartolomé, J., Liu, W., Kuo, P.H., Feng, S., Ghoshal, B., Gardiner, J., Zhao, J.M., Park, S.Y., Chory, J. & Jacobsen, S.E. (2019) Co-targeting RNA Polymerases IV and V Promotes Efficient De Novo DNA Methylation
+                                    in Arabidopsis. <i>Cell</i>, 176, 1068-1082.e19.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br></br>
+    <br></br>
+    <br></br>
+    <!--Footer Links-->
+    <img src="../static/imgs/bottom.svg" width="110%" style="margin-bottom:-1px" class="footer-bg">
+    <div class="footer-bg-solid">
+        <div class="footer-bg" style="width:110%; background-color:#775DFF;">
+            <div class="row" style="width:80%;text-align: center;margin-left: 3rem;">
+                <!--First column-->
+                <div class="col-md-4">
+                    <h5 class="text-uppercase font-weight-bold mb-4 text-white">Get in touch </h5>
+                    <h6 class="text-upper case font-weight-bold text-white"> Mailing address</h6>
+                    <div class="text-white" style="line-height:16px">
+                        <p>A314, ZJU-UoE Institute,</p>
+                        <p>718 East Haizhou Rd.,</p>
+                        <p> Haining, Zhejiang 314400,</p>
+                        <p> P.R. China</p>
+                        <p>
+                            <a href="mailto:wanluliu@intl.zju.edu.cn" class="link_in_text text-white"> <i class="fas fa-fw fa-envelope"></i> <u>wanluliu@intl.zju.edu.cn</u></a>
+                        </p>
+                    </div>
+                </div>
+                <!--/.First column-->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!--Second column-->
+                <div class="col-md-4">
+                    <h5 class="text-uppercase font-weight-bold mb-4 text-white">About</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="#!">Term of use</a></li>
+                        <li><a class="text-white" href="#!">About us</a></li>
+                        <li><a class="text-white" href="#!">Report an issue</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!--Third column-->
+                <div class="col-md-4">
+                    <h5 class="text-uppercase font-weight-bold mb-4 text-white"> Other links </h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="http://labw.org/">Lab website</a></li>
+                        <li><a class="text-white" href="http://zje.intl.zju.edu.cn/en">ZJU-UOE institute</a></li>
+                        <li><a class="text-white" href="https://www.intl.zju.edu.cn/">International campus of ZJU</a></li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+            </div>
+        </div>
+        <!--/.Footer Links-->
+        <div class="footer-bg" style="width:110%; background-color:#775DFF;">
+            <div class="row" class="footer text-center text-white" style="width:80%;text-align: center;margin-left: 3rem;">
+                <!--First column-->
+                <div class="col-md-4 ">
+                </div>
+                <div class="col-md-4 ">
+                    <!--Social buttons-->
+                    <br>
+                    <div class="footer ">
+                        <div class=" list-unstyled list-inline ">
+                            <li class="list-inline-item "><a class="btn-floating btn-fb "><i class="fab fa-facebook-f text-white "> </i></a></li>
+                            <li class="list-inline-item "><a class="btn-floating btn-tw "><i class="fab fa-twitter text-white "> </i></a></li>
+                            <li class="list-inline-item "><a class="btn-floating btn-gplus "><i class="fab fa-google-plus-g text-white "> </i></a></li>
+                            <li class="list-inline-item "><a class="btn-floating btn-li "><i class="fab fa-linkedin-in text-white "> </i></a></li>
+                            <li class="list-inline-item "><a class="btn-floating btn-git "><i class="fab fa-github text-white "> </i></a></li>
+                        </div>
+                        <br>
+                        <br>
+                        <strong class="text-white ">© LAB W | All right reserved </a></strong>
+                    </div>
+
+                    <!--Copyright-->
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="col-md-4 ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    let colpale = document.getElementById("color-palette");
+    colpale.addEventListener("click", function() {
+        if (colpale.classList.contains("active")) {
+            colpale.classList.remove("active");
+        } else {
+            colpale.classList.add("active");
+        }
+    });
+</script>
+<script>
+    document.getElementById("fgFile1").disabled = false;
+    document.getElementById("fgFile2").disabled = false;
+    document.getElementById("fgData1").disabled = true;
+    document.getElementById("fgData2").disabled = true;
+
+    $("#fgData1").click(function() {
+        document.getElementById("fgData1").disabled = false;
+    })
+
+    function switchFg1(checked) {
+        if (checked === "file") {
+            document.getElementById("fgData1").disabled = true;
+            document.getElementById("fgFile1").disabled = false;
+        } else if (checked === "data") {
+            document.getElementById("fgData1").disabled = false;
+            document.getElementById("fgFile1").disabled = true;
+        }
+    }
+    document.getElementById("fgData2").disabled = true;
+    $("#fgData2").click(function() {
+        document.getElementById("fgData2").disabled = false;
+    })
+
+    function switchFg2(checked) {
+        if (checked === "file") {
+            document.getElementById("fgData2").disabled = true;
+            document.getElementById("fgFile2").disabled = false;
+        } else if (checked === "data") {
+            document.getElementById("fgData2").disabled = false;
+            document.getElementById("fgFile2").disabled = true;
+        }
+    }
+</script>
+
+</html>

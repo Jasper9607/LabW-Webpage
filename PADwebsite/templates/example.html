@@ -1,0 +1,361 @@
+<html lang="en" class="" dir=ltr>
+
+<head>
+    <link rel="shortcut icon" href="../static/imgs/logo2.png" />
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/min.js"></script>
+    <script type="text/javascript" src="../static/js/fullpage.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Examples</title>
+
+    <!-- Custom styles for this template-->
+    <link href="../static/css/maincss.css" rel="stylesheet">
+    <link href="../static/css/fullpage.css" rel="stylesheet">
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-ekOryaXPbeCpWQNxMwSWVvQ0+1VrStoPJq54shlYhR8HzQgig1v5fas6YgOqLoKz" crossorigin="anonymous">
+
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/jquery.dataTables.min.js" integrity="sha256-t5ZQTZsbQi8NxszC10CseKjJ5QeMw5NINtOXQrESGSU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha256-fzFFyH01cBVPYzl16KT40wqjhgPtq6FFUB6ckN2+GGw=" crossorigin="anonymous"></script>
+
+    <style>
+        .tour-backdrop {
+            opacity: 0.5;
+        }
+        
+        .btn-primary {
+            color: #fff;
+            background-color: #151520;
+            border-color: #151520
+        }
+        
+        .btn {
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: 400;
+            text-align: center;
+            vertical-align: middle;
+            touch-action: manipulation;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            white-space: nowrap;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            border-radius: 4px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+        
+        .small-btn {
+            width: 20px;
+            height: 5px;
+        }
+    </style>
+</head>
+
+<body id="page-top" style="overflow-x: hidden;">
+    <!-- header for xl-->
+    <header>
+        <div class="d-none d-xl-block">
+            <div id="content-wrapper" class="d-flex flex-column">
+                <div class="container">
+                    <nav class="navbar fixed-top navbar-expand-md navbar-light white double-nav scrolling-navbar">
+                        <div class="navbar-nav" style="margin-left: 8rem">
+                            <a class="navbar-brand" href="#"><strong>Peak Associated DEG</strong></a>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                            <div class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle" href="#" id="themesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-fw fa-upload"></i> <strong>Data Processing</strong>
+                                </a>
+
+                                <div class="dropdown-menu border-0 shadow animate slideIn" aria-labelledby="navbarDropdown">
+
+                                    <div class="nav-item animated--grow-in">
+                                        <a class="nav-link" id="#uploadid" href={{ url_for( 'index') }}> <i class="fas fa-fw fa-arrow-up"></i> <span>Upload</span></a>
+                                    </div>
+                                    <div class="dropdown-divider"></div>
+                                    <div class="nav-item animated--grow-in">
+                                        <a class="nav-link animated--grow-in" href="#supported_format"> <i class="fas fa-fw fa-check-square"></i> <span>Supported formats</span></a>
+                                    </div>
+                                    <div class="dropdown-divider"></div>
+                                    <div class="nav-item animated--grow-in">
+                                        <a class="nav-link animated--grow-in" href={{ url_for( 'index') }}> <i class="fas fa-fw fa-rocket"></i> <span>Submit and run</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-fw fa-file" href="#"></i> <strong>Results</strong>
+                                </a>
+                                <div class="dropdown-menu border-0 shadow animate slideIn" aria-labelledby="navbarDropdown">
+                                    <div class="nav-item animated--grow-in">
+                                        <a class="nav-link " href={{ url_for( 'index') }}> <i class="fas fa-fw fa-table"></i> <span>Result figure</span></a>
+                                    </div>
+                                    <div class="dropdown-divider"></div>
+                                    <div class="nav-item animated--grow-in">
+                                        <a class="nav-link " href={{ url_for( 'index') }}><i class="fas fa-fw fa-chart-area"></i> <span>Result data</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-fw fa-file-archive"></i> <strong>Example</strong>
+                            </a>
+                            <div class="dropdown-menu border-0 shadow animate slideIn" aria-labelledby="navbarDropdown">
+                                <div class="nav-item animated--grow-in">
+                                    <a class="nav-link " href="#supported_format"> <i class="fas fa-fw fa-chart-area"></i> <span>Example data</span></a>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <div class="nav-item animated--grow-in">
+                                    <a class="nav-link animated--grow-in" href='#example_result'><i class="fas fa-fw fa-table"></i> <span>Example result</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-item ">
+                            <a class="nav-link " href={{ url_for( 'docs') }}><i class="fas fa-fw fa-book "></i><span><strong>Documentation</strong></span></a>
+                        </div>
+
+
+                        <div class="navbar-nav ml-auto " style="margin-right: 8rem; ">
+                            <a class="nav-link " href="http://labw.org/ ">
+                                <img src="../static/imgs/logo.png " height="50px; ">
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header for * less than xl-->
+    <header>
+        <div class="d-xl-none ">
+            <nav class="navbar fixed-top navbar-expand-md navbar-light white double-nav scrolling-navbar">
+                <div class="navbar-nav " style="margin-left: 33%;">
+                    <a class="navbar-brand " href={{ url_for( "index")}}><strong>Peak Associated DEG</strong></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--nav bar for * less than xl-->
+    <div id="fp-nav" class="fp-show-active position-fixed nav-position loaded notransition transition-desktop-mobile d-xl-none" style="top:140px">
+        <ul>
+            <a class="nav-link dropdown-toggle animated--grow-in" href="#" id="themesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 20px;margin-left: 0.75rem;">
+                <i class="fas fa-fw fa-bars"></i>
+            </a>
+            <div class="dropdown-menu border-0 shadow animate slideIn" aria-labelledby="navbarDropdown" style="width:max-content;margin-left: 3rem;">
+
+                <div class="nav-item animated--grow-in">
+                    <a class="nav-link" id="#uploadid" href={{ url_for( 'index') }}> <i class="fas fa-fw fa-arrow-up"></i> <span>Upload</span></a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link animated--grow-in" href="#supported_format"> <i class="fas fa-fw fa-check-square"></i> <span>Supported formats</span></a>
+                </div>
+                <div class="nav-item animated--grow-in">
+                    <a class="nav-link" href="./index.html#submitandrun"> <i class="fas fa-fw fa-rocket"></i> <span>Submit and run</span></a>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="nav-item">
+                    <a class="nav-link animated--grow-in" href={{ url_for( 'index') }}> <i class="fas fa-fw fa-chart-area"></i> <span>Result figure</span></a>
+                </div>
+
+                <div class="nav-item">
+                    <a class="nav-link animated--grow-in" href={{ url_for( 'index') }}><i class="fas fa-fw fa-table"></i> <span>Result data</span></a>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="nav-item">
+                    <a class="nav-link animated--grow-in" href={{ url_for( 'docs') }}><i class="fas fa-fw fa-book"></i><span>Documentation</span></a>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="nav-item">
+                    <a class="nav-link animated--grow-in" href="#supported_format"> <i class="fas fa-fw fa-chart-area"></i> <span>Example data</span></a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link animated--grow-in" href='#example_result'><i class="fas fa-fw fa-table"></i> <span>Example result</span></a>
+                </div>
+
+            </div>
+        </ul>
+    </div>
+
+    <img src="../static/imgs/top.svg" width="110%" style="margin-bottom:-1px" class="footer-bg">
+    <!--Main content -->
+    <div class="wrapper">
+        <div>
+            <a name="supported_format" style="display:block;height:80px;margin-top:-80px;"></a>
+            <div class="container-fluid animated--grow-in">
+                <div class="col-xl-10 col-lg-10 ">
+                    <div class="card shadow mb-4 ">
+                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between ">
+                            <h6 class="m-0 font-weight-bold text-primary ">&nbsp;&nbsp;<b> Supported formats </b></h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="list-group">
+                                <div class="list-group-item">
+                                    <div class="d-flex w-100 justify-content-between" style="margin: 10px 0;">
+                                        <h5 class="mb-1">DEG list </h5>
+                                    </div>
+                                    <p class="mb-1">Comma-separated text (TXT) or comma-separated values (CSV) files with a gene expression matrix.</p>
+                                    <br>
+                                    <p> We require eiter gene symbol or Emsembl ID in the first column of your data. </p>
+                                    <p> It is possible that your data have extra columns after the first column (see example data) </p>
+                                    <small> Download template data file for upregulated genes <a  href="../static/example/upregulated_genes.csv" download="">click here</a></small> </a><br>
+                                    <small> Download template data file for downregulated genes <a  href="../static/example/downregulated_genes.csv" download="">click here</a></small> </a>
+
+
+                                </div>
+                                <a href="../static/example/peakfile.bed" download="" class="list-group-item list-group-item-action">
+                                    <div class="d-flex w-100 justify-content-between" style="margin: 10px 0;">
+                                        <h5 class="mb-1">Peaks file </h5>
+                                    </div>
+                                    <p class="mb-1"> Browser Extensible Data (BED) file with peaks data
+                                        <p>The first three fields in each feature line are required:</p>
+                                        <li> chrom - name of the chromosome or scaffold. Any valid seq_region_name can be used, and chromosome names can be given <b> without the 'chr' prefix </b>. </li>
+                                        <li>
+                                            chromStart - Start position of the feature in standard chromosomal coordinates (i.e. first base is 0).
+                                        </li>
+                                        <li>
+                                            chromEnd - End position of the feature in standard chromosomal coordinates</p>
+                                    </li>
+                                    </p> <small> Download template data file <b id="para">click here</b></small> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a name="example_result" style="display:block;height:80px;margin-top:-80px;"></a>
+        <div class="container-fluid animated--grow-in">
+            <div class="col-xl-10 col-lg-10 ">
+                <div class="card shadow mb-4 ">
+                    <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between ">
+                        <h6 class="m-0 font-weight-bold text-primary ">&nbsp;&nbsp;<b> Example results</b></h6>
+                    </div>
+                    <div class="card-body" style="justify-content: center; border: 0%;">
+                        <img id="example_result_figure" src="../static/example/example_result.png" style="zoom:100%" alt="example result">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <!--Footer Links-->
+    <img src="../static/imgs/bottom.svg" width="110%" style="margin-bottom:-1px" class="footer-bg">
+    <div class="footer-bg-solid">
+        <div class="footer-bg" style="width:110%; background-color:#775DFF;">
+            <div class="row" style="width:80%;text-align: center;margin-left: 3rem;">
+                <!--First column-->
+                <div class="col-md-4">
+                    <h5 class="text-uppercase font-weight-bold mb-4 text-white">Get in touch </h5>
+                    <h6 class="text-upper case font-weight-bold text-white"> Mailing address</h6>
+                    <div class="text-white" style="line-height:16px">
+                        <p>A314, ZJU-UoE Institute,</p>
+                        <p>718 East Haizhou Rd.,</p>
+                        <p> Haining, Zhejiang 314400,</p>
+                        <p> P.R. China</p>
+                        <p>
+                            <a href="mailto:wanluliu@intl.zju.edu.cn" class="link_in_text text-white"> <i class="fas fa-fw fa-envelope"></i> <u>wanluliu@intl.zju.edu.cn</u></a>
+                        </p>
+                    </div>
+                </div>
+                <!--/.First column-->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!--Second column-->
+                <div class="col-md-4">
+                    <h5 class="text-uppercase font-weight-bold mb-4 text-white">About</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="#!">Term of use</a></li>
+                        <li><a class="text-white" href="#!">About us</a></li>
+                        <li><a class="text-white" href="#!">Report an issue</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!--Third column-->
+                <div class="col-md-4">
+                    <h5 class="text-uppercase font-weight-bold mb-4 text-white"> Other links </h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="http://labw.org/">Lab website</a></li>
+                        <li><a class="text-white" href="http://zje.intl.zju.edu.cn/en">ZJU-UOE institute</a></li>
+                        <li><a class="text-white" href="https://www.intl.zju.edu.cn/">International campus of ZJU</a></li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+            </div>
+        </div>
+        <!--/.Footer Links-->
+        <div class="footer-bg" style="width:110%; background-color:#775DFF;">
+            <div class="row" class="footer text-center text-white" style="width:80%;text-align: center;margin-left: 3rem;">
+                <!--First column-->
+                <div class="col-md-4 ">
+                </div>
+                <div class="col-md-4 ">
+                    <!--Social buttons-->
+                    <br>
+                    <div class="footer ">
+                        <div class=" list-unstyled list-inline ">
+                            <li class="list-inline-item "><a class="btn-floating btn-fb "><i class="fab fa-facebook-f text-white "> </i></a></li>
+                            <li class="list-inline-item "><a class="btn-floating btn-tw "><i class="fab fa-twitter text-white "> </i></a></li>
+                            <li class="list-inline-item "><a class="btn-floating btn-gplus "><i class="fab fa-google-plus-g text-white "> </i></a></li>
+                            <li class="list-inline-item "><a class="btn-floating btn-li "><i class="fab fa-linkedin-in text-white "> </i></a></li>
+                            <li class="list-inline-item "><a class="btn-floating btn-git "><i class="fab fa-github text-white "> </i></a></li>
+                        </div>
+                        <br>
+                        <br>
+                        <strong class="text-white ">© LAB W | All right reserved </a></strong>
+                    </div>
+
+                    <!--Copyright-->
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="col-md-4 ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var result = document.getElementById("example_result_figure")
+    imgAdj = function() {
+        if ($(window).width() < 500) {
+            let adj = 100 + (($(window).width() - 500) / 5)
+            result.style.zoom = adj + "%"
+        } else {
+            result.style.zoom = "100%"
+        }
+    }
+    imgAdj();
+    $(window).resize(function() {
+        imgAdj()
+    })
+</script>
+
+</html>
