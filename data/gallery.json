@@ -1,0 +1,45 @@
+{
+  "albums": [
+    {
+      "id": "cats",
+      "title": "Meet Our Cats",
+      "description": "Lab W's much-loved cat gallery, moved out of the homepage into Life @ Lab W.",
+      "items": [
+        { "src": "img/cat/juno.jpg", "thumb": "img/cat/juno.jpg", "alt": "Juno, a Lab W cat", "caption": "Juno", "date": "" },
+        { "src": "img/cat/sql.jpg", "thumb": "img/cat/sql.jpg", "alt": "Sql, a Lab W cat", "caption": "Sql", "date": "" },
+        { "src": "img/cat/Cola.jpg", "thumb": "img/cat/Cola.jpg", "alt": "Cola, a Lab W cat", "caption": "Cola", "date": "" },
+        { "src": "img/cat/tutu.png", "thumb": "img/cat/tutu.png", "alt": "Tutu, a Lab W cat", "caption": "Tutu", "date": "" },
+        { "src": "img/cat/Kiki.jpg", "thumb": "img/cat/Kiki.jpg", "alt": "Kiki, a Lab W cat", "caption": "Kiki", "date": "" },
+        { "src": "img/cat/Lark.png", "thumb": "img/cat/Lark.png", "alt": "Lark, a Lab W cat", "caption": "Lark", "date": "" },
+        { "src": "img/cat/qiuqiu.png", "thumb": "img/cat/qiuqiu.png", "alt": "Qiuqiu, a Lab W cat", "caption": "Qiuqiu", "date": "" },
+        { "src": "img/cat/mibu.png", "thumb": "img/cat/mibu.png", "alt": "Mibu, a Lab W cat", "caption": "Mibu", "date": "" },
+        { "src": "img/cat/little eggette.jpg", "thumb": "img/cat/little eggette.jpg", "alt": "Miss Mei, a Lab W cat", "caption": "Miss Mei", "date": "" }
+      ]
+    },
+    {
+      "id": "retreats",
+      "title": "Lab Retreats",
+      "description": "Retreats, hiking and daily gatherings.",
+      "items": [
+        { "src": "img/life/allin-1.jpeg", "thumb": "img/life/allin-1.jpeg", "alt": "Lab W gathering at All-in Cafe", "caption": "All-in Cafe", "date": "2022-06" },
+        { "src": "img/life/allin-2.jpeg", "thumb": "img/life/allin-2.jpeg", "alt": "Lab W brunch at All-in Cafe", "caption": "All-in Cafe", "date": "2022-06" },
+        { "src": "img/202205_poster_day.jpeg", "thumb": "img/202205_poster_day.jpeg", "alt": "Lab W poster day awards", "caption": "Poster Day", "date": "2022-05" },
+        { "src": "img/life/06abe2eb-7dc5-4b12-99a1-cb3d4e899ef3.jpg", "thumb": "img/life/06abe2eb-7dc5-4b12-99a1-cb3d4e899ef3.jpg", "alt": "Lab W hike at Jing Mountain", "caption": "Jing Mountain hike", "date": "2021-05" },
+        { "src": "img/life/46523ac9-cc82-4e62-84fe-07e855b9ea33.jpg", "thumb": "img/life/46523ac9-cc82-4e62-84fe-07e855b9ea33.jpg", "alt": "Lab W hiking day", "caption": "Hiking", "date": "2021-05" }
+      ]
+    },
+    {
+      "id": "photography",
+      "title": "Photography",
+      "description": "Outside-of-science photography by lab members.",
+      "items": [
+        { "src": "img/outsideof/花鸟岛-optim.jpg", "thumb": "img/outsideof/花鸟岛-optim.jpg", "alt": "Photography from Huaniao Island", "caption": "Huaniao Island", "date": "" },
+        { "src": "img/outsideof/上海-optim.jpg", "thumb": "img/outsideof/上海-optim.jpg", "alt": "Photography from Shanghai", "caption": "Shanghai", "date": "" },
+        { "src": "img/outsideof/夏威夷茂宜岛-optim.jpg", "thumb": "img/outsideof/夏威夷茂宜岛-optim.jpg", "alt": "Photography from Maui", "caption": "Maui", "date": "" },
+        { "src": "img/outsideof/大峡谷-optim.jpg", "thumb": "img/outsideof/大峡谷-optim.jpg", "alt": "Photography from the Grand Canyon", "caption": "Grand Canyon", "date": "" },
+        { "src": "img/outsideof/西雅图-optim.jpg", "thumb": "img/outsideof/西雅图-optim.jpg", "alt": "Photography from Seattle", "caption": "Seattle", "date": "" },
+        { "src": "img/snows/IMG_5639-optim.jpg", "thumb": "img/snows/IMG_5639-optim.jpg", "alt": "Photography by Snow", "caption": "By Snow", "date": "" }
+      ]
+    }
+  ]
+}

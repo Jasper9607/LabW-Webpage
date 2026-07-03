@@ -1,0 +1,132 @@
+{
+  "news": [
+    {
+      "date": "2025-11-01",
+      "title": "Linnan Guo won a poster award at the Cell Research Symposium",
+      "description": "Congratulations to Linnan Guo for receiving a Poster Award at the 2025 Cell Research Symposium.",
+      "image": "",
+      "tags": ["Award"],
+      "link": ""
+    },
+    {
+      "date": "2024-09-01",
+      "title": "Luyao Zhang and Hongchen Zhu joined Lab W",
+      "description": "Welcome our new visiting master students Luyao Zhang and Hongchen Zhu.",
+      "image": "",
+      "tags": ["People"],
+      "link": ""
+    },
+    {
+      "date": "2024-05-01",
+      "title": "Lab W retreat at Shanghai Disneyland",
+      "description": "All lab members enjoyed a group retreat at Shanghai Disneyland.",
+      "image": "",
+      "tags": ["Life"],
+      "link": ""
+    },
+    {
+      "date": "2023-11-01",
+      "title": "Ruonan Tian won the National Scholarship for postgraduate students",
+      "description": "Congratulations to Ruonan Tian for receiving the National Scholarship for postgraduate students.",
+      "image": "",
+      "tags": ["Award"],
+      "link": ""
+    },
+    {
+      "date": "2023-09-01",
+      "title": "Yuhui Chen, Linnan Guo and Weikai Shi joined Lab W",
+      "description": "Welcome our new visiting master students Yuhui Chen, Linnan Guo and Weikai Shi.",
+      "image": "",
+      "tags": ["People"],
+      "link": ""
+    },
+    {
+      "date": "2022-12-01",
+      "title": "Ziyang Li joined Lab W",
+      "description": "Welcome Ziyang Li, a visiting Ph.D. student in clinical medicine from The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+      "image": "",
+      "tags": ["People"],
+      "link": ""
+    },
+    {
+      "date": "2022-11-01",
+      "title": "Xinyu Xiang won the National Scholarship for postgraduate students",
+      "description": "Congratulations to Xinyu Xiang for receiving the National Scholarship for postgraduate students.",
+      "image": "",
+      "tags": ["Award"],
+      "link": ""
+    },
+    {
+      "date": "2022-06-01",
+      "title": "Lab W gathered at All-in Cafe",
+      "description": "Lab members met for a relaxed gathering at All-in Cafe.",
+      "image": "img/life/allin-1.jpeg",
+      "tags": ["Life"],
+      "link": ""
+    },
+    {
+      "date": "2022-05-01",
+      "title": "Poster Day awards for Ziwei Xue, Siqian Jin and Xinyu Xiang",
+      "description": "Congratulations to Ziwei Xue, Siqian Jin and Xinyu Xiang for awards in the Student Crossover Innovation Competition.",
+      "image": "img/202205_poster_day.jpeg",
+      "tags": ["Award"],
+      "link": ""
+    },
+    {
+      "date": "2021-12-01",
+      "title": "Yiwen Xu joined Lab W",
+      "description": "Welcome Yiwen Xu, a visiting master student in clinical medicine from The Second Affiliated Hospital, Zhejiang University School of Medicine.",
+      "image": "",
+      "tags": ["People"],
+      "link": ""
+    },
+    {
+      "date": "2021-11-01",
+      "title": "Yixin Guo won the National Scholarship for postgraduate students",
+      "description": "Congratulations to Yixin Guo for receiving the National Scholarship for postgraduate students.",
+      "image": "",
+      "tags": ["Award"],
+      "link": ""
+    },
+    {
+      "date": "2021-09-01",
+      "title": "New graduate students joined Lab W",
+      "description": "Welcome new Ph.D. students Lize Wu and Ziwei Xue, and new master students Ruonan Tian and Xinyi Chen.",
+      "image": "",
+      "tags": ["People"],
+      "link": ""
+    },
+    {
+      "date": "2021-09-02",
+      "title": "New publications in Nucleic Acids Research and BBRC",
+      "description": "Congratulations to Lize Wu et al. and Siqian Jin et al. for new collaborative publications.",
+      "image": "",
+      "tags": ["Publication"],
+      "link": ""
+    },
+    {
+      "date": "2021-08-01",
+      "title": "NSFC General Program funding awarded to Wanlu Liu",
+      "description": "Congratulations to Wanlu Liu for receiving approval for funding from the General Program of the National Natural Science Foundation of China.",
+      "image": "",
+      "tags": ["Funding"],
+      "link": ""
+    },
+    {
+      "date": "2021-07-01",
+      "title": "Wanlu Liu received a JEDI award from LSEF",
+      "description": "Congratulations to Wanlu Liu for receiving a Justice, Equity, Diversity and Inclusion award from the Life Science Editors Foundation.",
+      "image": "",
+      "tags": ["Award"],
+      "link": "http://lifescienceeditors.org/"
+    },
+    {
+      "date": "2021-05-01",
+      "title": "Lab hike to Jing Mountain in Hangzhou",
+      "description": "Lab W enjoyed a hiking day outdoors at Jing Mountain in Hangzhou.",
+      "image": "img/life/06abe2eb-7dc5-4b12-99a1-cb3d4e899ef3.jpg",
+      "tags": ["Life"],
+      "link": ""
+    }
+  ]
+}

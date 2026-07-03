@@ -1,0 +1,147 @@
+# TODO: Replace TODO_OWNER/TODO_REPO and confirm the authentication provider before launch.
+backend:
+  name: github
+  repo: TODO_OWNER/TODO_REPO
+  branch: main
+
+media_folder: "img/uploads"
+public_folder: "img/uploads"
+
+collections:
+  - name: "site"
+    label: "Site Settings"
+    files:
+      - label: "Site Settings"
+        name: "site"
+        file: "data/site.json"
+        fields:
+          - { label: "Lab Name", name: "labName", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "text" }
+          - { label: "Positioning", name: "positioning", widget: "text" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Contact Email", name: "contactEmail", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "text", required: false }
+          - { label: "Institution", name: "institution", widget: "string", required: false }
+          - { label: "Institution URL", name: "institutionUrl", widget: "string", required: false }
+          - { label: "PI Homepage", name: "piHomepage", widget: "string", required: false }
+          - { label: "GitHub", name: "github", widget: "string", required: false }
+          - { label: "Map URL", name: "mapUrl", widget: "string", required: false }
+
+  - name: "people"
+    label: "People"
+    files:
+      - label: "People"
+        name: "people"
+        file: "data/people.json"
+        fields:
+          - label: "People"
+            name: "people"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
+              - { label: "Status", name: "status", widget: "select", options: ["current", "alumni"] }
+              - { label: "Group", name: "group", widget: "select", options: ["pi", "postdoc", "graduate", "research_assistant", "undergraduate", "alumni"] }
+              - { label: "Photo", name: "photo", widget: "image", required: false }
+              - { label: "Alt Text", name: "alt", widget: "string", required: false }
+              - { label: "Email", name: "email", widget: "string", required: false }
+              - { label: "Research", name: "research", widget: "text", required: false }
+              - { label: "Bio", name: "bio", widget: "text", required: false }
+              - { label: "Current Position", name: "currentPosition", widget: "string", required: false }
+              - label: "Links"
+                name: "links"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+              - { label: "Order", name: "order", widget: "number", required: false }
+
+  - name: "publications"
+    label: "Publications"
+    files:
+      - label: "Publications"
+        name: "publications"
+        file: "data/publications.json"
+        fields:
+          - label: "Publications"
+            name: "publications"
+            widget: "list"
+            fields:
+              - { label: "Number", name: "number", widget: "number", required: false }
+              - { label: "Year", name: "year", widget: "number" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Authors", name: "authors", widget: "text", required: false }
+              - { label: "Journal", name: "journal", widget: "string", required: false }
+              - { label: "DOI", name: "doi", widget: "string", required: false }
+              - { label: "URL", name: "url", widget: "string", required: false }
+              - { label: "PDF", name: "pdf", widget: "string", required: false }
+              - { label: "Tags", name: "tags", widget: "list", required: false }
+              - { label: "Related Direction", name: "relatedDirection", widget: "string", required: false }
+              - { label: "Related Software", name: "relatedSoftware", widget: "list", required: false }
+              - { label: "Citation", name: "citation", widget: "text", required: false }
+              - { label: "Order", name: "order", widget: "number", required: false }
+
+  - name: "software"
+    label: "Software & Data"
+    files:
+      - label: "Software & Data"
+        name: "software"
+        file: "data/software.json"
+        fields:
+          - label: "Software"
+            name: "software"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Type", name: "type", widget: "string", required: false }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Audience", name: "audience", widget: "text", required: false }
+              - { label: "Website", name: "website", widget: "string", required: false }
+              - { label: "GitHub", name: "github", widget: "string", required: false }
+              - { label: "Documentation", name: "documentation", widget: "string", required: false }
+              - { label: "Publication", name: "publication", widget: "string", required: false }
+              - { label: "Contact", name: "contact", widget: "string", required: false }
+              - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  - name: "news"
+    label: "News"
+    files:
+      - label: "News"
+        name: "news"
+        file: "data/news.json"
+        fields:
+          - label: "News"
+            name: "news"
+            widget: "list"
+            fields:
+              - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - { label: "Tags", name: "tags", widget: "list", required: false }
+              - { label: "Link", name: "link", widget: "string", required: false }
+
+  - name: "gallery"
+    label: "Gallery"
+    files:
+      - label: "Gallery"
+        name: "gallery"
+        file: "data/gallery.json"
+        fields:
+          - label: "Albums"
+            name: "albums"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text", required: false }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Image", name: "src", widget: "image" }
+                  - { label: "Thumbnail", name: "thumb", widget: "image", required: false }
+                  - { label: "Alt Text", name: "alt", widget: "string" }
+                  - { label: "Caption", name: "caption", widget: "string", required: false }
+                  - { label: "Date", name: "date", widget: "string", required: false }

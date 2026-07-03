@@ -1,0 +1,14 @@
+{
+  "labName": "Lab W",
+  "tagline": "Decoding immune systems through single-cell, spatial, and TCR computation.",
+  "positioning": "Lab W develops single-cell and spatial omics technologies, computational TCR immunology methods, and integrative multi-omics frameworks to decode immune states, T cell recognition, and autoimmune disease mechanisms.",
+  "description": "Lab W develops computational and experimental frameworks for single-cell and spatial omics, TCR repertoire analysis, and autoimmune disease systems biology.",
+  "contactEmail": "wanluliu@intl.zju.edu.cn",
+  "address": "A314, ZJU-UoE Institute, 718 East Haizhou Rd., Haining, Zhejiang 314400, P.R. China",
+  "institution": "ZJU-UoE Institute, Zhejiang University",
+  "institutionUrl": "http://zje.intl.zju.edu.cn/zje/home/index",
+  "piHomepage": "https://person.zju.edu.cn/en/labw",
+  "github": "",
+  "mapUrl": "",
+  "cmsRepoTodo": "TODO_CONFIRM_GITHUB_REPOSITORY_FOR_DECAP_CMS"
+}

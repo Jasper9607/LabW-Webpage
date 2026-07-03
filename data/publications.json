@@ -1,0 +1,823 @@
+{
+  "publications": [
+    {
+      "number": 47,
+      "year": 2025,
+      "title": "A pan-disease and population-level single-cell TCRαβ repertoire reference",
+      "authors": "Xue, Z.* , Wu, L.* , Gao, B.* , Tian, R. , Chen, Y. , Qi, Y., Dong, T., Bai, Y., Zhao, Y., He, B., Wang, L., Liu, Z., Yao, J., Lu, L.#, Liu, W.#",
+      "journal": "Cell Discovery , 11, 82",
+      "doi": "10.1038/s41421-025-00836-7",
+      "url": "https://doi.org/10.1038/s41421-025-00836-7",
+      "pdf": "",
+      "tags": [
+        "TCR Immunology",
+        "Single-cell Omics"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "47. Xue, Z.* , Wu, L.* , Gao, B.* , Tian, R. , Chen, Y. , Qi, Y., Dong, T., Bai, Y., Zhao, Y., He, B., Wang, L., Liu, Z., Yao, J., Lu, L.#, Liu, W.# , 2025. A pan-disease and population-level single-cell TCRαβ repertoire reference. Cell Discovery , 11, 82. link",
+      "order": 47
+    },
+    {
+      "number": 46,
+      "year": 2025,
+      "title": "Integrating cross-sample and cross-modal data for spatial transcriptomics and metabolomics with SpatialMETA",
+      "authors": "Tian, R.* , Xue, Z.* , Chen, Y. , Qi, Y., Zhang, J. , Yuan, J., Ruan, D. , Lin, J. , Liu, J., Wang, D., Ye, Y., Liu, W.#",
+      "journal": "Nature Communications , 16, 8855",
+      "doi": "TODO_CONFIRM_DOI_OR_URL",
+      "url": "",
+      "pdf": "",
+      "tags": [
+        "Single-cell Omics",
+        "Spatial Omics"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "46. Tian, R.* , Xue, Z.* , Chen, Y. , Qi, Y., Zhang, J. , Yuan, J., Ruan, D. , Lin, J. , Liu, J., Wang, D., Ye, Y., Liu, W.# , 2025. Integrating cross-sample and cross-modal data for spatial transcriptomics and metabolomics with SpatialMETA. Nature Communications , 16, 8855. link 2024",
+      "order": 46
+    },
+    {
+      "number": 45,
+      "year": 2024,
+      "title": "Evaluation of T Cell Receptor Construction Methods from scRNA-Seq Data",
+      "authors": "Tian, R.* , Yu, Z. , Xue, Z. , Wu, J., Wu, L. , Cai, S. , Gao, B. , He, B., Zhao, Y., Yao, J., Lu, L., Liu, W.#",
+      "journal": "Genomics, Proteomics & Bioinformatics",
+      "doi": "10.1093/gpbjnl/qzae086",
+      "url": "https://doi.org/10.1093/gpbjnl/qzae086",
+      "pdf": "",
+      "tags": [
+        "TCR Immunology",
+        "Single-cell Omics"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "45. Tian, R.* , Yu, Z. , Xue, Z. , Wu, J., Wu, L. , Cai, S. , Gao, B. , He, B., Zhao, Y., Yao, J., Lu, L., Liu, W.# , 2024. Evaluation of T Cell Receptor Construction Methods from scRNA-Seq Data. Genomics, Proteomics & Bioinformatics . link",
+      "order": 45
+    },
+    {
+      "number": 44,
+      "year": 2024,
+      "title": "Integrative mapping of human CD8+ T cells in inflammation and cancer",
+      "authors": "Xue, Z.* , Wu, L.* , Tian, R. , Gao, B. , Zhao, Y., Bing, H., Zhao, B. , Li, Y. , Zhu, K., Wang, L., Yao, J.#, Liu, W.# & Lu, L.#",
+      "journal": "Nature Methods",
+      "doi": "",
+      "url": "https://www.nature.com/articles/s41592-024-02530-0",
+      "pdf": "",
+      "tags": [
+        "TCR Immunology",
+        "Autoimmune Disease"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "44. Xue, Z.* , Wu, L.* , Tian, R. , Gao, B. , Zhao, Y., Bing, H., Zhao, B. , Li, Y. , Zhu, K., Wang, L., Yao, J.#, Liu, W.# & Lu, L.#, 2024. Integrative mapping of human CD8+ T cells in inflammation and cancer. Nature Methods . link",
+      "order": 44
+    },
+    {
+      "number": 43,
+      "year": 2024,
+      "title": "A two-front nutrient supply environment fuels small intestinal physiology through differential regulation of nutrient absorption and host defense",
+      "authors": "Zhang, J.*, Tian, R.* , Liu, J.*, Yuan, J.*, Zhang, S., Chi, Z., Yu, W., Yu, Q., Wang, Z., Chen, S., Li, M., Yang, D., Hu, T., Deng, Q., Lu, X., Yang, Y., Zhou, R., Zhang, X., Liu, W.# , and Wang, D.#",
+      "journal": "Cell p6251-6271.e20",
+      "doi": "10.1016/j.cell.2024.08.012",
+      "url": "https://doi.org/10.1016/j.cell.2024.08.012",
+      "pdf": "",
+      "tags": [
+        "Lab W Research"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "43. Zhang, J.*, Tian, R.* , Liu, J.*, Yuan, J.*, Zhang, S., Chi, Z., Yu, W., Yu, Q., Wang, Z., Chen, S., Li, M., Yang, D., Hu, T., Deng, Q., Lu, X., Yang, Y., Zhou, R., Zhang, X., Liu, W.# , and Wang, D.#, 2024. A two-front nutrient supply environment fuels small intestinal physiology through differential regulation of nutrient absorption and host defense. Cell p6251-6271.e20 link",
+      "order": 43
+    },
+    {
+      "number": 42,
+      "year": 2024,
+      "title": "Chemically programmed metabolism drives a superior cell fitness for cartilage regeneration",
+      "authors": "Chen, Y.*, Yan, Y.*, Tian, R. , Sheng, Z., Li, L., Chen, J., Liao, Y., Wen, Y., Lu, J., Liu, X., Sun, W., Wu, H., Liao, Y., Zhang, X., Chen, X., An, C., Zhao, K., Liu, W. , Gao, J., Hay, D. C., Ouyang, H.#",
+      "journal": "Science Advances , 10(37): eadp4408",
+      "doi": "10.1126/sciadv.adp4408",
+      "url": "",
+      "pdf": "",
+      "tags": [
+        "Stem Cell Biology"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "42. Chen, Y.*, Yan, Y.*, Tian, R. , Sheng, Z., Li, L., Chen, J., Liao, Y., Wen, Y., Lu, J., Liu, X., Sun, W., Wu, H., Liao, Y., Zhang, X., Chen, X., An, C., Zhao, K., Liu, W. , Gao, J., Hay, D. C., Ouyang, H.# 2024. Chemically programmed metabolism drives a superior cell fitness for cartilage regeneration. Science Advances , 10(37): eadp4408. link",
+      "order": 42
+    },
+    {
+      "number": 41,
+      "year": 2024,
+      "title": "Comprehensive assessment of mRNA isoform detection methods for long-read sequencing data",
+      "authors": "Su, Y.* , Yu, Z. , Jin, S. , Ai, Z. Yuan, R. , Chen, X. , Xue, Z. , Guo, Y. , Chen, D., Liang, H., Liu, Z., Liu, W.#",
+      "journal": "Nature Communications , 15, 3972",
+      "doi": "10.1038/s41467-024-48117-3",
+      "url": "https://doi.org/10.1038/s41467-024-48117-3",
+      "pdf": "",
+      "tags": [
+        "Lab W Research"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "41. Su, Y.* , Yu, Z. , Jin, S. , Ai, Z. Yuan, R. , Chen, X. , Xue, Z. , Guo, Y. , Chen, D., Liang, H., Liu, Z., Liu, W.# , 2024. Comprehensive assessment of mRNA isoform detection methods for long-read sequencing data. Nature Communications , 15, 3972 link",
+      "order": 41
+    },
+    {
+      "number": 40,
+      "year": 2024,
+      "title": "CRISPR-TE: a web-based tool to generate single guide RNAs targeting transposable elements",
+      "authors": "Guo, Y.* , Xue, Z.* , Gong, M. , Jin, S. , Wu, X. , Liu, W.#",
+      "journal": "Mobile DNA , 3",
+      "doi": "10.1186/s13100-024-00313-0",
+      "url": "https://doi.org/10.1186/s13100-024-00313-0",
+      "pdf": "",
+      "tags": [
+        "Tools & Databases",
+        "Epigenomics"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "40. Guo, Y.* , Xue, Z.* , Gong, M. , Jin, S. , Wu, X. , Liu, W.# , 2024.CRISPR-TE: a web-based tool to generate single guide RNAs targeting transposable elements. Mobile DNA , 3. link 2023",
+      "order": 40
+    },
+    {
+      "number": 39,
+      "year": 2023,
+      "title": "MSdb: An integrated expression atlas of human musculoskeletal system",
+      "authors": "Tian, R.* , Xue, Z.* , Ruan, D.* , Chen, P., Xu, Y., Dai, C., Shen, W., Ouyang, H.#, Liu, W.# , Lin, J.#",
+      "journal": "iScience , 26(6)",
+      "doi": "10.1016/j.isci.2023.106933",
+      "url": "https://doi.org/10.1016/j.isci.2023.106933",
+      "pdf": "",
+      "tags": [
+        "Tools & Databases",
+        "Stem Cell Biology"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "39. Tian, R.* , Xue, Z.* , Ruan, D.* , Chen, P., Xu, Y., Dai, C., Shen, W., Ouyang, H.#, Liu, W.# , Lin, J.# , 2023. MSdb: An integrated expression atlas of human musculoskeletal system. iScience , 26(6). link 2022",
+      "order": 39
+    },
+    {
+      "number": 38,
+      "year": 2022,
+      "title": "Kruppel-like factor 5 rewires NANOG regulatory network to activate human naive pluripotency specific LTR7Ys and promote naive pluripotency",
+      "authors": "Ai, Z.*, Xiang, X.* , Xiang, Y.*, Szczerbinska, I.*, Qian, Y.*, Xu, X., Ma, C., Su, Y. , Gao, B. , Shen, H., Ramli, M., Chen, D., Liu, Y., Hao, J., Ng, H., Zhang, D. #, Chan, Y. #, Liu, W.# , Liang, H.#",
+      "journal": "Cell Reports , 40, 111240",
+      "doi": "",
+      "url": "https://www.cell.com/cell-reports/pdf/S2211-1247(22)01057-9.pdf",
+      "pdf": "https://www.cell.com/cell-reports/pdf/S2211-1247(22)01057-9.pdf",
+      "tags": [
+        "Epigenomics",
+        "Stem Cell Biology"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "38. Ai, Z.*, Xiang, X.* , Xiang, Y.*, Szczerbinska, I.*, Qian, Y.*, Xu, X., Ma, C., Su, Y. , Gao, B. , Shen, H., Ramli, M., Chen, D., Liu, Y., Hao, J., Ng, H., Zhang, D. #, Chan, Y. #, Liu, W.# , Liang, H.# 2022. Kruppel-like factor 5 rewires NANOG regulatory network to activate human naive pluripotency specific LTR7Ys and promote naive pluripotency. Cell Reports , 40, 111240. link",
+      "order": 38
+    },
+    {
+      "number": 37,
+      "year": 2022,
+      "title": "TET enzymes regulate skeletal development through increasing chromatin accessibility of RUNX2 target genes",
+      "authors": "Wang, L.*, You, X.*, Ruan, D.* , Shao, R., Dai, H., Shen, W., Xu, G., Liu, W.# , Zou, W. #",
+      "journal": "Nature communications. Nature Communications , 13, 4709",
+      "doi": "",
+      "url": "https://www.nature.com/articles/s41467-022-32138-x",
+      "pdf": "",
+      "tags": [
+        "Epigenomics",
+        "Stem Cell Biology"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "37. Wang, L.*, You, X.*, Ruan, D.* , Shao, R., Dai, H., Shen, W., Xu, G., Liu, W.# , Zou, W. # 2022. TET enzymes regulate skeletal development through increasing chromatin accessibility of RUNX2 target genes. Nature communications. Nature Communications , 13, 4709. link",
+      "order": 37
+    },
+    {
+      "number": 36,
+      "year": 2022,
+      "title": "Human reproduction is regulated by retrotransposons derived from ancient Hominidae-specific viral infections, Nature Communications , 13, 463",
+      "authors": "Xiang,X.* , Tao,Y., DiRusso,J., Hsu, F.M., Zhang, J. , Xue, Z. , Pontis,J., Trono,D., Liu, W.# , Clark,A. #",
+      "journal": "",
+      "doi": "",
+      "url": "https://www.nature.com/articles/s41467-022-28105-1",
+      "pdf": "",
+      "tags": [
+        "Epigenomics"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "36. Xiang,X.* , Tao,Y., DiRusso,J., Hsu, F.M., Zhang, J. , Xue, Z. , Pontis,J., Trono,D., Liu, W.# , Clark,A. #, 2022. Human reproduction is regulated by retrotransposons derived from ancient Hominidae-specific viral infections, Nature Communications , 13, 463. link",
+      "order": 36
+    },
+    {
+      "number": 35,
+      "year": 2022,
+      "title": "Single cell analysis reveals inhibition of angiogenesis attenuates the progression of heterotopic ossification in Mkx−/− mice, Bone research , 10, 4",
+      "authors": "Lin, J.* , Yang,Y., Zhou, W., Dai, C. , Chen,X., Xie,Y., Han,S., Liu,H., Hu,Y., Tang,C., Bunpetch,V., Zhang,D., Chen,Y., Zou,X., Chen,D., Liu, W.# , Ouyang,H. #",
+      "journal": "",
+      "doi": "",
+      "url": "https://www.nature.com/articles/s41413-021-00175-9",
+      "pdf": "",
+      "tags": [
+        "Single-cell Omics"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "35. Lin, J.* , Yang,Y., Zhou, W., Dai, C. , Chen,X., Xie,Y., Han,S., Liu,H., Hu,Y., Tang,C., Bunpetch,V., Zhang,D., Chen,Y., Zou,X., Chen,D., Liu, W.# , Ouyang,H. #, 2022. Single cell analysis reveals inhibition of angiogenesis attenuates the progression of heterotopic ossification in Mkx−/− mice, Bone research , 10, 4. link",
+      "order": 35
+    },
+    {
+      "number": 34,
+      "year": 2021,
+      "title": "Early-Stage Primary Anti-inflammatory Therapy Enhances the Regenerative Efficacy of Platelet-Rich Plasma in a Rabbit Achilles Tendinopathy Model, The American journal of sports medicine , 49(12): 3357-3371",
+      "authors": "Ruan,D.* , Tang,C.*, Fei,Y*, Qian,S., Xiang,X. ,Xu,J., Huang,Z., Chen,X., Heng,B., Yin,Z., Chen,W., Liu, W. , Shen,W.#, Ouyang,H.#",
+      "journal": "",
+      "doi": "",
+      "url": "https://journals.sagepub.com/doi/10.1177/03635465211037354",
+      "pdf": "",
+      "tags": [
+        "Autoimmune Disease"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "34. Ruan,D.* , Tang,C.*, Fei,Y*, Qian,S., Xiang,X. ,Xu,J., Huang,Z., Chen,X., Heng,B., Yin,Z., Chen,W., Liu, W. , Shen,W.#, Ouyang,H.#; 2021. Early-Stage Primary Anti-inflammatory Therapy Enhances the Regenerative Efficacy of Platelet-Rich Plasma in a Rabbit Achilles Tendinopathy Model, The American journal of sports medicine , 49(12): 3357-3371. link",
+      "order": 34
+    },
+    {
+      "number": 33,
+      "year": 2021,
+      "title": "huARdb: human Antigen Receptor database for interactive clonotype-transcriptome analysis at the single-cell level, Nucleic Acids Research , gkab867",
+      "authors": "Wu, L.* , Xue, Z.* , Jin, S. , Zhang, J. , Guo, Y. , Bai, Y., Jin, X., Wang, C., Wang, L., Liu, Z., Wang, J.Q., Lu, L.#, Liu, W.#",
+      "journal": "\">",
+      "doi": "10.1093/nar/gkab857",
+      "url": "https://doi.org/10.1093/nar/gkab857",
+      "pdf": "",
+      "tags": [
+        "TCR Immunology",
+        "Single-cell Omics",
+        "Tools & Databases"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "33. Wu, L.* , Xue, Z.* , Jin, S. , Zhang, J. , Guo, Y. , Bai, Y., Jin, X., Wang, C., Wang, L., Liu, Z., Wang, J.Q., Lu, L.#, Liu, W.# , 2021. huARdb: human Antigen Receptor database for interactive clonotype-transcriptome analysis at the single-cell level, Nucleic Acids Research , gkab867. \"> link",
+      "order": 33
+    },
+    {
+      "number": 32,
+      "year": 2021,
+      "title": "Identification of SRSF3 target mRNAs using inducible TRIBE",
+      "authors": "Jin, S.* , Xue, Z.* , Zhang, J. , Wang, Z., Zhang, J., Chen, D.#, Liu, W.# , Lin, J.#",
+      "journal": "Biochemical and Biophysical Research Communications",
+      "doi": "10.1016/j.bbrc.2021.09.019",
+      "url": "",
+      "pdf": "",
+      "tags": [
+        "Lab W Research"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "32. Jin, S.* , Xue, Z.* , Zhang, J. , Wang, Z., Zhang, J., Chen, D.#, Liu, W.# , Lin, J.# , 2021. Identification of SRSF3 target mRNAs using inducible TRIBE. Biochemical and Biophysical Research Communications. link",
+      "order": 32
+    },
+    {
+      "number": 31,
+      "year": 2021,
+      "title": "Divergent roles for KLF4 and TFCP2L1 in naive ground state pluripotency and human primordial germ cell development",
+      "authors": "Hancock GV, Liu, W. , Peretz,L, Chen,D, Gell,J., Collier,AJ, Zamudio,JR, Plath,K, Clark,AT.#",
+      "journal": "Stem Cell Res 55:102493",
+      "doi": "",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1873506121003408",
+      "pdf": "",
+      "tags": [
+        "Epigenomics",
+        "Stem Cell Biology"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "31. Hancock GV, Liu, W. , Peretz,L, Chen,D, Gell,J., Collier,AJ, Zamudio,JR, Plath,K, Clark,AT.#, 2021. Divergent roles for KLF4 and TFCP2L1 in naive ground state pluripotency and human primordial germ cell development. Stem Cell Res 55:102493. link",
+      "order": 31
+    },
+    {
+      "number": 30,
+      "year": 2021,
+      "title": "Ectopic targeting of CG DNA methylation in Arabidopsis with the bacterial SssI methyltransferase",
+      "authors": "Liu, W. *# , J. Gallego-Bartolomé*, Y. Zhou , Z. Zhong, M. Wang, S. P. Wongpalee, J. Gardiner, S. Feng, P. H. Kuo and S. E. Jacobsen.#",
+      "journal": "Nature Communications 12(1): 3130",
+      "doi": "",
+      "url": "https://www.nature.com/articles/s41467-021-23346-y",
+      "pdf": "",
+      "tags": [
+        "Epigenomics"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "30. Liu, W. *# , J. Gallego-Bartolomé*, Y. Zhou , Z. Zhong, M. Wang, S. P. Wongpalee, J. Gardiner, S. Feng, P. H. Kuo and S. E. Jacobsen.#, 2021. Ectopic targeting of CG DNA methylation in Arabidopsis with the bacterial SssI methyltransferase. Nature Communications 12(1): 3130. link",
+      "order": 30
+    },
+    {
+      "number": 29,
+      "year": 2021,
+      "title": "RAD: a web application to identify region associated differentially expressed genes",
+      "authors": "Guo, Y. , Xue, Z. , Yuan, R. , Li, J., Pastor, W. & Liu, W.#",
+      "journal": "Bioinformatics , btab075",
+      "doi": "",
+      "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btab075/6126802",
+      "pdf": "",
+      "tags": [
+        "Tools & Databases"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "29. Guo, Y. , Xue, Z. , Yuan, R. , Li, J., Pastor, W. & Liu, W.# , 2021. RAD: a web application to identify region associated differentially expressed genes. Bioinformatics , btab075. link",
+      "order": 29
+    },
+    {
+      "number": 28,
+      "year": 2021,
+      "title": "DNA methylation-linked chromatin accessibility affects genomic architecture in Arabidopsis",
+      "authors": "Zhong, Z., Feng, S., Duttke, S.H., Potok, M.E., Zhang, Y. , Gallego-Bartolomé, J., Liu, W.# & Jacobsen, S.E.#",
+      "journal": "Proceedings of the National Academy of Sciences . 118(5), e2023347118",
+      "doi": "",
+      "url": "https://www.pnas.org/content/118/5/e2023347118",
+      "pdf": "",
+      "tags": [
+        "Epigenomics"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "28. Zhong, Z., Feng, S., Duttke, S.H., Potok, M.E., Zhang, Y. , Gallego-Bartolomé, J., Liu, W.# & Jacobsen, S.E.#, 2021. DNA methylation-linked chromatin accessibility affects genomic architecture in Arabidopsis . Proceedings of the National Academy of Sciences . 118(5), e2023347118. link 2020",
+      "order": 28
+    },
+    {
+      "number": 27,
+      "year": 2020,
+      "title": "Classification of four distinct osteoarthritis subtypes with a knee joint tissue transcriptome atlas",
+      "authors": "Yuan, C.*, Pan, Z.*, Zhao, K.*, Li, J., Sheng, Z., Yao, X., Liu, H., Zhang, X., Yang, Y., Yu, D., Zhang, Y., Xu, Y., Zhang, Z., Huang, T., Liu, W. & Ouyang, H.#",
+      "journal": "Bone Research , 8, 38",
+      "doi": "",
+      "url": "https://www.nature.com/articles/s41413-020-00109-x",
+      "pdf": "",
+      "tags": [
+        "Tools & Databases",
+        "Autoimmune Disease"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "27. Yuan, C.*, Pan, Z.*, Zhao, K.*, Li, J., Sheng, Z., Yao, X., Liu, H., Zhang, X., Yang, Y., Yu, D., Zhang, Y., Xu, Y., Zhang, Z., Huang, T., Liu, W. & Ouyang, H.#, 2020. Classification of four distinct osteoarthritis subtypes with a knee joint tissue transcriptome atlas. Bone Research , 8, 38 link",
+      "order": 27
+    },
+    {
+      "number": 26,
+      "year": 2020,
+      "title": "Naive Human Embryonic Stem Cells Can Give Rise to Cells with a Trophoblast-like Transcriptome and Methylome",
+      "authors": "Cinkornpumin, J.K., Kwon, S.Y., Guo, Y. , Hossain, I., Sirois, J., Russett, C.S., Tseng, H., Okae, H., Arima, T., Duchaine, T.F., Liu, W. & Pastor, W.A.#",
+      "journal": "Stem Cell Reports",
+      "doi": "10.1016/j.stemcr.2020.06.003",
+      "url": "https://doi.org/10.1016/j.stemcr.2020.06.003",
+      "pdf": "",
+      "tags": [
+        "Stem Cell Biology"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "26. Cinkornpumin, J.K., Kwon, S.Y., Guo, Y. , Hossain, I., Sirois, J., Russett, C.S., Tseng, H., Okae, H., Arima, T., Duchaine, T.F., Liu, W. & Pastor, W.A.#, 2020. Naive Human Embryonic Stem Cells Can Give Rise to Cells with a Trophoblast-like Transcriptome and Methylome. Stem Cell Reports . link",
+      "order": 26
+    },
+    {
+      "number": 25,
+      "year": 2020,
+      "title": "An Extended Culture System that Supports Human Primordial Germ Cell-like Cell Survival and Initiation of DNA Methylation Erasure",
+      "authors": "Gell, J. J.*, Liu, W. , Sosa, E., Chialastri, A., Hancock, G., Tao, Y., Wamaitha, S. E., Bower, G., Dey, S. S., Clark, A. T.#",
+      "journal": "Stem Cell Reports , 14(3), 433-446",
+      "doi": "10.1016/j.stemcr.2020.01.009",
+      "url": "https://doi.org/10.1016/j.stemcr.2020.01.009",
+      "pdf": "",
+      "tags": [
+        "Epigenomics",
+        "Stem Cell Biology"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "25. Gell, J. J.*, Liu, W. , Sosa, E., Chialastri, A., Hancock, G., Tao, Y., Wamaitha, S. E., Bower, G., Dey, S. S., Clark, A. T.#, 2020. An Extended Culture System that Supports Human Primordial Germ Cell-like Cell Survival and Initiation of DNA Methylation Erasure. Stem Cell Reports , 14(3), 433-446. link 2019",
+      "order": 25
+    },
+    {
+      "number": 24,
+      "year": 2019,
+      "title": "CryoEM structures of Arabidopsis DDR complexes involved in RNA-directed DNA methylation",
+      "authors": "Wongpalee, S. P.*, Liu, S.*, Gallego-Bartolomé, J.*, Leitner, A., Aebersold, R., Liu, W. , Yen L., Nohales, M. A., Kuo, P. H., Wohlschlegel J. A., Feng, S., Kay, S. A., Zhou, Z.#, Jacobsen, S. E#",
+      "journal": "Nature Communications , 10(1), 3916",
+      "doi": "",
+      "url": "https://www.nature.com/articles/s41467-019-11759-9",
+      "pdf": "",
+      "tags": [
+        "Epigenomics"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "24. Wongpalee, S. P.*, Liu, S.*, Gallego-Bartolomé, J.*, Leitner, A., Aebersold, R., Liu, W. , Yen L., Nohales, M. A., Kuo, P. H., Wohlschlegel J. A., Feng, S., Kay, S. A., Zhou, Z.#, Jacobsen, S. E#, 2019. CryoEM structures of Arabidopsis DDR complexes involved in RNA-directed DNA methylation. Nature Communications , 10(1), 3916. link",
+      "order": 24
+    },
+    {
+      "number": 23,
+      "year": 2019,
+      "title": "Human Primordial Germ Cells Are Specified from Lineage-Primed Progenitors",
+      "authors": "Chen, D.*, Sun, N.*, Hou, L.*, Kim, R., Faith, J., Aslanyan, M., Tao Y., Zheng Y., Fu J., Liu W. , Manolis K.#, Clark, A#",
+      "journal": "Cell Reports ,29(13), 4568-4582.e4565",
+      "doi": "10.1016/j.celrep.2019.11.083",
+      "url": "https://doi.org/10.1016/j.celrep.2019.11.083",
+      "pdf": "",
+      "tags": [
+        "Stem Cell Biology"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "23. Chen, D.*, Sun, N.*, Hou, L.*, Kim, R., Faith, J., Aslanyan, M., Tao Y., Zheng Y., Fu J., Liu W. , Manolis K.#, Clark, A#, 2019. Human Primordial Germ Cells Are Specified from Lineage-Primed Progenitors. Cell Reports ,29(13), 4568-4582.e4565. link",
+      "order": 23
+    },
+    {
+      "number": 22,
+      "year": 2019,
+      "title": "Epigenetic initiation of the TH17 differentiation program is promoted by Cxxc finger protein 1",
+      "authors": "Lin, F.*, Meng, X.*, Guo, Y. , Cao, W., Liu, W. , Xia, Q., Hui, Z., Chen, J., Hong, S., Zhang, X., Wu, C., Wang, D., Wang, J., Lu, L., Qian W., Wei, L., Wang, L.#",
+      "journal": "Science Advances ,5,eaax1608",
+      "doi": "",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aax1608",
+      "pdf": "",
+      "tags": [
+        "Epigenomics"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "22. Lin, F.*, Meng, X.*, Guo, Y. , Cao, W., Liu, W. , Xia, Q., Hui, Z., Chen, J., Hong, S., Zhang, X., Wu, C., Wang, D., Wang, J., Lu, L., Qian W., Wei, L., Wang, L.#,2019. Epigenetic initiation of the TH17 differentiation program is promoted by Cxxc finger protein 1. Science Advances ,5,eaax1608 link",
+      "order": 22
+    },
+    {
+      "number": 21,
+      "year": 2019,
+      "title": "Arabidopsis SWR1-associated protein methyl-CpG-binding domain 9 is required for histone H2A",
+      "authors": "Potok, M.E.*, Wang, Y.*, Xu, L., Zhong, Z., Liu, W. , Feng, S., Naranbaatar, B., Rayatpisheh, S., Wang, Z., Wohlschlegel, J.E., Ausin, I.#, Jacobsen, S.E.#",
+      "journal": "Z deposition. Nature Communications ,10(1), p3352",
+      "doi": "",
+      "url": "https://www.nature.com/articles/s41467-019-11291-w",
+      "pdf": "",
+      "tags": [
+        "Lab W Research"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "21. Potok, M.E.*, Wang, Y.*, Xu, L., Zhong, Z., Liu, W. , Feng, S., Naranbaatar, B., Rayatpisheh, S., Wang, Z., Wohlschlegel, J.E., Ausin, I.#, Jacobsen, S.E.#, 2019. Arabidopsis SWR1-associated protein methyl-CpG-binding domain 9 is required for histone H2A. Z deposition. Nature Communications ,10(1), p3352 link",
+      "order": 21
+    },
+    {
+      "number": 20,
+      "year": 2019,
+      "title": "Multi-level Modulation of Light Signaling by GIGANTEA Regulates Both the Output and Pace of the Circadian Clock",
+      "authors": "Nohales, M.A., Liu, W. , Duffy, T., Nozue, K., Sawa, M., Pruneda-Paz, J.L., Maloof, J.N., Jacobsen, S.E.# and Kay, S.A.#",
+      "journal": "Developmental Cell , 49(6), pp.840-851",
+      "doi": "10.1016/j.devcel.2019.04.030",
+      "url": "https://doi.org/10.1016/j.devcel.2019.04.030",
+      "pdf": "",
+      "tags": [
+        "Lab W Research"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "20. Nohales, M.A., Liu, W. , Duffy, T., Nozue, K., Sawa, M., Pruneda-Paz, J.L., Maloof, J.N., Jacobsen, S.E.# and Kay, S.A.#, 2019. Multi-level Modulation of Light Signaling by GIGANTEA Regulates Both the Output and Pace of the Circadian Clock. Developmental Cell , 49(6), pp.840-851. link",
+      "order": 20
+    },
+    {
+      "number": 19,
+      "year": 2019,
+      "title": "Co-targeting RNA polymerases IV and V promotes efficient de novo DNA methylation in Arabidopsis",
+      "authors": "Gallego-Bartolome, J.*, Liu, W.* , Kuo, P.H., Feng, S., Ghoshal, B., Gardiner, J., Zhao, J.M.C., Park, S.Y., Chory, J. and Jacobsen, S.E.#",
+      "journal": "Cell , 176(5), pp.1068-1082",
+      "doi": "10.1016/j.cell.2019.01.029",
+      "url": "https://doi.org/10.1016/j.cell.2019.01.029",
+      "pdf": "",
+      "tags": [
+        "Epigenomics"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "19. Gallego-Bartolome, J.*, Liu, W.* , Kuo, P.H., Feng, S., Ghoshal, B., Gardiner, J., Zhao, J.M.C., Park, S.Y., Chory, J. and Jacobsen, S.E.#, 2019. Co-targeting RNA polymerases IV and V promotes efficient de novo DNA methylation in Arabidopsis. Cell , 176(5), pp.1068-1082. link",
+      "order": 19
+    },
+    {
+      "number": 18,
+      "year": 2019,
+      "title": "Site-specific manipulation of Arabidopsis loci using CRISPR-Cas9 SunTag systems",
+      "authors": "Papikian, A., Liu, W. , Gallego-Bartolomé, J. and Jacobsen, S.E.#",
+      "journal": "Nature Communications , 10(1), p.729",
+      "doi": "",
+      "url": "https://www.nature.com/articles/s41467-019-08736-7",
+      "pdf": "",
+      "tags": [
+        "Lab W Research"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "18. Papikian, A., Liu, W. , Gallego-Bartolomé, J. and Jacobsen, S.E.#, 2019. Site-specific manipulation of Arabidopsis loci using CRISPR-Cas9 SunTag systems. Nature Communications , 10(1), p.729. link",
+      "order": 18
+    },
+    {
+      "number": 17,
+      "year": 2019,
+      "title": "A Nucleosome Bridging Mechanism for Activation of a Maintenance DNA Methyltransferase",
+      "authors": "Stoddard, C.I., Feng, S., Campbell, M.G., Liu, W. , Wang, H., Zhong, X., Bernatavichute, Y., Cheng, Y., Jacobsen, S.E.# and Narlikar, G.J.#",
+      "journal": "Molecular Cell , 73(1), pp.73-83",
+      "doi": "10.1016/j.molcel.2018.10.006",
+      "url": "https://doi.org/10.1016/j.molcel.2018.10.006",
+      "pdf": "",
+      "tags": [
+        "Lab W Research"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "17. Stoddard, C.I., Feng, S., Campbell, M.G., Liu, W. , Wang, H., Zhong, X., Bernatavichute, Y., Cheng, Y., Jacobsen, S.E.# and Narlikar, G.J.#, 2019. A Nucleosome Bridging Mechanism for Activation of a Maintenance DNA Methyltransferase. Molecular Cell , 73(1), pp.73-83. link 2018",
+      "order": 17
+    },
+    {
+      "number": 16,
+      "year": 2018,
+      "title": "The TFAP2C-Regulated OCT4 Naive Enhancer Is Involved in Human Germline Formation",
+      "authors": "Chen, D.*, Liu, W.* , Zimmerman, J., Pastor, W.A., Kim, R., Hosohama, L., Ho, J., Aslanyan, M., Gell, J.J., Jacobsen, S.E. and Clark, A.T",
+      "journal": "Cell Reports , 25(13), pp.3591-3602",
+      "doi": "10.1016/j.celrep.2018.12.011",
+      "url": "https://doi.org/10.1016/j.celrep.2018.12.011",
+      "pdf": "",
+      "tags": [
+        "Lab W Research"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "16. Chen, D.*, Liu, W.* , Zimmerman, J., Pastor, W.A., Kim, R., Hosohama, L., Ho, J., Aslanyan, M., Gell, J.J., Jacobsen, S.E. and Clark, A.T., 2018. The TFAP2C-Regulated OCT4 Naive Enhancer Is Involved in Human Germline Formation. Cell Reports , 25(13), pp.3591-3602. link",
+      "order": 16
+    },
+    {
+      "number": 15,
+      "year": 2018,
+      "title": "A DNA methylation reader complex that enhances gene transcription",
+      "authors": "Harris, C.J.*, Scheibe, M.*, Wongpalee, S.P., Liu, W. , Cornett, E.M., Vaughan, R.M., Li, X., Chen, W., Xue, Y., Zhong, Z. and Yen, L",
+      "journal": "Science , 362(6419), pp.1182-1186",
+      "doi": "",
+      "url": "https://www.science.org/lookup/doi/10.1126/science.aar7854",
+      "pdf": "",
+      "tags": [
+        "Epigenomics"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "15. Harris, C.J.*, Scheibe, M.*, Wongpalee, S.P., Liu, W. , Cornett, E.M., Vaughan, R.M., Li, X., Chen, W., Xue, Y., Zhong, Z. and Yen, L., 2018. A DNA methylation reader complex that enhances gene transcription. Science , 362(6419), pp.1182-1186. link",
+      "order": 15
+    },
+    {
+      "number": 14,
+      "year": 2018,
+      "title": "TFAP2C regulates transcription in human naive pluripotency by opening enhancers",
+      "authors": "Pastor, W.A., Liu, W. , Chen, D., Ho, J., Kim, R., Hunt, T.J., Lukianchikov, A., Liu, X., Polo, J.M., Jacobsen, S.E.# and Clark, A.T.#",
+      "journal": "Nature Cell Biology , 20(5), p.553",
+      "doi": "",
+      "url": "https://www.nature.com/articles/s41556-018-0089-0",
+      "pdf": "",
+      "tags": [
+        "Epigenomics",
+        "Stem Cell Biology"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "14. Pastor, W.A., Liu, W. , Chen, D., Ho, J., Kim, R., Hunt, T.J., Lukianchikov, A., Liu, X., Polo, J.M., Jacobsen, S.E.# and Clark, A.T.#, 2018. TFAP2C regulates transcription in human naive pluripotency by opening enhancers. Nature Cell Biology , 20(5), p.553. link",
+      "order": 14
+    },
+    {
+      "number": 13,
+      "year": 2018,
+      "title": "RNA-directed DNA methylation involves co-transcriptional small-RNA-guided slicing of polymerase V transcripts in Arabidopsis",
+      "authors": "Liu, W.* , Duttke, S.H.*, Hetzel, J., Groth, M., Feng, S., Gallego-Bartolome, J., Zhong, Z., Kuo, H.Y., Wang, Z., Zhai, J., Chory, J., Jacobsen, S.E.#",
+      "journal": "Nature Plants , 4(3), p.181",
+      "doi": "",
+      "url": "https://www.nature.com/articles/s41477-017-0100-y",
+      "pdf": "",
+      "tags": [
+        "Epigenomics"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "13. Liu, W.* , Duttke, S.H.*, Hetzel, J., Groth, M., Feng, S., Gallego-Bartolome, J., Zhong, Z., Kuo, H.Y., Wang, Z., Zhai, J., Chory, J., Jacobsen, S.E.#, 2018. RNA-directed DNA methylation involves co-transcriptional small-RNA-guided slicing of polymerase V transcripts in Arabidopsis. Nature Plants , 4(3), p.181. link",
+      "order": 13
+    },
+    {
+      "number": 12,
+      "year": 2018,
+      "title": "Targeted DNA demethylation of the Arabidopsis genome using the human TET1 catalytic domain",
+      "authors": "Gallego-Bartolomé, J.*, Gardiner, J.*, Liu, W.* , Papikian, A.*, Ghoshal, B., Kuo, H.Y., Zhao, J.M.C., Segal, D.J. and Jacobsen, S.E.#",
+      "journal": "Proceedings of the National Academy of Sciences , 115(9), pp.E2125-E2134",
+      "doi": "",
+      "url": "https://www.pnas.org/content/115/9/E2125",
+      "pdf": "",
+      "tags": [
+        "Epigenomics"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "12. Gallego-Bartolomé, J.*, Gardiner, J.*, Liu, W.* , Papikian, A.*, Ghoshal, B., Kuo, H.Y., Zhao, J.M.C., Segal, D.J. and Jacobsen, S.E.#, 2018. Targeted DNA demethylation of the Arabidopsis genome using the human TET1 catalytic domain. Proceedings of the National Academy of Sciences , 115(9), pp.E2125-E2134. link",
+      "order": 12
+    },
+    {
+      "number": 11,
+      "year": 2018,
+      "title": "Large-scale comparative epigenomics reveals hierarchical regulation of non-CG methylation in Arabidopsis",
+      "authors": "Zhang, Y.*, Harris, C.J.*, Liu, Q.*, Liu, W. , Ausin, I., Long, Y., Xiao, L., Feng, L., Chen, X., Xie, Y., Chen, X., Zhan, L., Feng, S., Li, J.J., Wang, H.#, Zhai, J.#, Jacobsen, S.E.#",
+      "journal": "Proceedings of the National Academy of Sciences , 115(5), pp.E1069-E1074",
+      "doi": "",
+      "url": "https://www.pnas.org/content/118/5/e202334711",
+      "pdf": "",
+      "tags": [
+        "Epigenomics"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "11. Zhang, Y.*, Harris, C.J.*, Liu, Q.*, Liu, W. , Ausin, I., Long, Y., Xiao, L., Feng, L., Chen, X., Xie, Y., Chen, X., Zhan, L., Feng, S., Li, J.J., Wang, H.#, Zhai, J.#, Jacobsen, S.E.#, 2018. Large-scale comparative epigenomics reveals hierarchical regulation of non-CG methylation in Arabidopsis. Proceedings of the National Academy of Sciences , 115(5), pp.E1069-E1074. link 2017",
+      "order": 11
+    },
+    {
+      "number": 10,
+      "year": 2017,
+      "title": "Primate primordial germ cells acquire transplantation potential by Carnegie stage 23",
+      "authors": "Clark, A.T.#, Gkountela, S., Chen, D., Liu, W. , Sosa, E., Sukhwani, M., Hennebold, J.D. and Orwig, K.E",
+      "journal": "Stem Cell Reports , 9(1), pp.329-341",
+      "doi": "",
+      "url": "https://www.pnas.org/content/118/5/e2023347118",
+      "pdf": "",
+      "tags": [
+        "Stem Cell Biology"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "10. Clark, A.T.#, Gkountela, S., Chen, D., Liu, W. , Sosa, E., Sukhwani, M., Hennebold, J.D. and Orwig, K.E., 2017. Primate primordial germ cells acquire transplantation potential by Carnegie stage 23. Stem Cell Reports , 9(1), pp.329-341. link",
+      "order": 10
+    },
+    {
+      "number": 9,
+      "year": 2017,
+      "title": "Germline competency of human embryonic stem cells depends on eomesodermin",
+      "authors": "Chen, D., Liu, W. , Lukianchikov, A., Hancock, G.V., Zimmerman, J., Lowe, M.G., Kim, R., Galic, Z., Irie, N., Surani, M.A., Jacobsen, S.E., Clark, A.T.#",
+      "journal": "Biology of Reproduction , 97(6), pp.850-861",
+      "doi": "",
+      "url": "https://academic.oup.com/biolreprod/article/97/6/850/4582255",
+      "pdf": "",
+      "tags": [
+        "Stem Cell Biology"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "9. Chen, D., Liu, W. , Lukianchikov, A., Hancock, G.V., Zimmerman, J., Lowe, M.G., Kim, R., Galic, Z., Irie, N., Surani, M.A., Jacobsen, S.E., Clark, A.T.# 2017. Germline competency of human embryonic stem cells depends on eomesodermin. Biology of Reproduction , 97(6), pp.850-861. link 2016",
+      "order": 9
+    },
+    {
+      "number": 8,
+      "year": 2016,
+      "title": "DNA methylome of the 20-gigabase Norway spruce genome",
+      "authors": "Ausin, I., Feng, S., Yu, C., Liu, W. , Kuo, H.Y., Jacobsen, E.L., Zhai, J., Gallego-Bartolome, J., Wang, L., Egertsdotter, U., Street, N.R., Jacobsen, S.E.#, Wang, H.#",
+      "journal": "Proceedings of the National Academy of Sciences , 113(50), pp.E8106-E8113",
+      "doi": "",
+      "url": "https://www.pnas.org/content/113/50/E8106",
+      "pdf": "",
+      "tags": [
+        "Lab W Research"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "8. Ausin, I., Feng, S., Yu, C., Liu, W. , Kuo, H.Y., Jacobsen, E.L., Zhai, J., Gallego-Bartolome, J., Wang, L., Egertsdotter, U., Street, N.R., Jacobsen, S.E.#, Wang, H.#, 2016. DNA methylome of the 20-gigabase Norway spruce genome. Proceedings of the National Academy of Sciences , 113(50), pp.E8106-E8113. link",
+      "order": 8
+    },
+    {
+      "number": 7,
+      "year": 2016,
+      "title": "Mouse MORC3 is a GHKL ATPase that localizes to H3K4me3 marked chromatin",
+      "authors": "Li, S., Yen, L., Pastor, W.A., Johnston, J.B., Du, J., Shew, C.J., Liu, W. , Ho, J., Stender, B., Clark, A.T. and Burlingame, A.L., Daxinger, L.#, Patel, D.J#, Jacobsen, S.E.#",
+      "journal": "Proceedings of the National Academy of Sciences , 113(35), pp.E5108-E5116",
+      "doi": "10.1073/pnas.1609709113",
+      "url": "https://doi.org/10.1073/pnas.1609709113",
+      "pdf": "",
+      "tags": [
+        "Epigenomics"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "7. Li, S., Yen, L., Pastor, W.A., Johnston, J.B., Du, J., Shew, C.J., Liu, W. , Ho, J., Stender, B., Clark, A.T. and Burlingame, A.L., Daxinger, L.#, Patel, D.J#, Jacobsen, S.E.#, 2016. Mouse MORC3 is a GHKL ATPase that localizes to H3K4me3 marked chromatin. Proceedings of the National Academy of Sciences , 113(35), pp.E5108-E5116. link",
+      "order": 7
+    },
+    {
+      "number": 6,
+      "year": 2016,
+      "title": "Arabidopsis AtMORC4 and AtMORC7 form nuclear bodies and repress a large number of protein-coding genes",
+      "authors": "Harris, C.J.*, Husmann, D.*, Liu, W. , El Kasmi, F., Wang, H., Papikian, A., Pastor, W.A., Moissiard, G., Vashisht, A.A., Dangl, J.L., Wohlschlegel, J.A., Jacobsen, S.E.#",
+      "journal": "PLoS Genetics , 12(5), p.e1005998",
+      "doi": "",
+      "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005998",
+      "pdf": "",
+      "tags": [
+        "Lab W Research"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "6. Harris, C.J.*, Husmann, D.*, Liu, W. , El Kasmi, F., Wang, H., Papikian, A., Pastor, W.A., Moissiard, G., Vashisht, A.A., Dangl, J.L., Wohlschlegel, J.A., Jacobsen, S.E.#, 2016. Arabidopsis AtMORC4 and AtMORC7 form nuclear bodies and repress a large number of protein-coding genes. PLoS Genetics , 12(5), p.e1005998. link",
+      "order": 6
+    },
+    {
+      "number": 5,
+      "year": 2016,
+      "title": "Naive human pluripotent cells feature a methylation landscape devoid of blastocyst or germline memory",
+      "authors": "Pastor, W.A.*, Chen, D.*, Liu, W.* , Kim, R., Sahakyan, A., Lukianchikov, A., Plath, K., Jacobsen, S.E.# and Clark, A.T.#",
+      "journal": "Cell Stem Cell , 18(3), pp.323-329",
+      "doi": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26853856/",
+      "pdf": "",
+      "tags": [
+        "Epigenomics",
+        "Stem Cell Biology"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "5. Pastor, W.A.*, Chen, D.*, Liu, W.* , Kim, R., Sahakyan, A., Lukianchikov, A., Plath, K., Jacobsen, S.E.# and Clark, A.T.#, 2016. Naive human pluripotent cells feature a methylation landscape devoid of blastocyst or germline memory. Cell Stem Cell , 18(3), pp.323-329. link 2015",
+      "order": 5
+    },
+    {
+      "number": 4,
+      "year": 2015,
+      "title": "A one precursor one siRNA model for Pol IV-dependent siRNA biogenesis",
+      "authors": "Zhai, J.*, Bischof, S.*, Wang, H., Feng, S., Lee, T.F., Teng, C., Chen, X., Park, S.Y., Liu, L., Gallego-Bartolome, J., Liu, W. , Henderson, I.R., Meyers, B.C., Ausin, I.#, Jacobsen, S.E.#",
+      "journal": "Cell , 163(2), pp.445-455",
+      "doi": "10.1016/j.cell.2015.09.032",
+      "url": "https://doi.org/10.1016/j.cell.2015.09.032",
+      "pdf": "",
+      "tags": [
+        "Lab W Research"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "4. Zhai, J.*, Bischof, S.*, Wang, H., Feng, S., Lee, T.F., Teng, C., Chen, X., Park, S.Y., Liu, L., Gallego-Bartolome, J., Liu, W. , Henderson, I.R., Meyers, B.C., Ausin, I.#, Jacobsen, S.E.#, 2015. A one precursor one siRNA model for Pol IV-dependent siRNA biogenesis. Cell , 163(2), pp.445-455. link 2014",
+      "order": 4
+    },
+    {
+      "number": 3,
+      "year": 2014,
+      "title": "MORC1 represses transposable elements in the mouse male germline",
+      "authors": "Pastor, W.A.*, Stroud, H.*, Nee, K., Liu, W. , Pezic, D., Manakov, S., Lee, S.A., Moissiard, G., Zamudio, N., Bourc’his, D. and Aravin, A.A., Clark, A.T.#, Jacobsen, S.E.#",
+      "journal": "Nature Communications , 5, p.5795",
+      "doi": "10.1038/ncomms6795",
+      "url": "https://doi.org/10.1038/ncomms6795",
+      "pdf": "",
+      "tags": [
+        "Epigenomics"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "3. Pastor, W.A.*, Stroud, H.*, Nee, K., Liu, W. , Pezic, D., Manakov, S., Lee, S.A., Moissiard, G., Zamudio, N., Bourc’his, D. and Aravin, A.A., Clark, A.T.#, Jacobsen, S.E.#, 2014. MORC1 represses transposable elements in the mouse male germline. Nature Communications , 5, p.5795. link 2013",
+      "order": 3
+    },
+    {
+      "number": 2,
+      "year": 2013,
+      "title": "Incorporation of bioactive polyvinylpyrrolidone–iodine within bilayered collagen scaffolds enhances the differentiation and subchondral osteogenesis of mesenchymal stem cells",
+      "authors": "Jiang, Y., Chen, L., Zhang, S., Tong, T., Zhang, W., Liu, W. , Xu, G., Tuan, R.S., Heng, B.C., Crawford, R. and Xiao, Y.,Ouyang, H.W.#",
+      "journal": "Acta Biomaterialia , 9(9), pp.8089-8098",
+      "doi": "10.1016/j.actbio.2013.05.014",
+      "url": "https://doi.org/10.1016/j.actbio.2013.05.014",
+      "pdf": "",
+      "tags": [
+        "Stem Cell Biology"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "2. Jiang, Y., Chen, L., Zhang, S., Tong, T., Zhang, W., Liu, W. , Xu, G., Tuan, R.S., Heng, B.C., Crawford, R. and Xiao, Y.,Ouyang, H.W.#, 2013. Incorporation of bioactive polyvinylpyrrolidone–iodine within bilayered collagen scaffolds enhances the differentiation and subchondral osteogenesis of mesenchymal stem cells. Acta Biomaterialia , 9(9), pp.8089-8098. link 2012",
+      "order": 2
+    },
+    {
+      "number": 1,
+      "year": 2012,
+      "title": "Neonatal desensitization supports long-term survival and functional integration of human embryonic stem cell-derived mesenchymal stem cells in rat joint cartilage without immunosuppression",
+      "authors": "Zhang, S., Jiang, Y.Z., Zhang, W., Chen, L., Tong, T., Liu, W. , Mu, Q., Liu, H., Ji, J., Ouyang, H.W. and Zou, X.#",
+      "journal": "Stem Cells and Development , 22(1), pp.90-101",
+      "doi": "10.1089/scd.2012.0116",
+      "url": "https://doi.org/10.1089/scd.2012.0116",
+      "pdf": "",
+      "tags": [
+        "Stem Cell Biology"
+      ],
+      "relatedDirection": "",
+      "relatedSoftware": [],
+      "citation": "1. Zhang, S., Jiang, Y.Z., Zhang, W., Chen, L., Tong, T., Liu, W. , Mu, Q., Liu, H., Ji, J., Ouyang, H.W. and Zou, X.#, 2012. Neonatal desensitization supports long-term survival and functional integration of human embryonic stem cell-derived mesenchymal stem cells in rat joint cartilage without immunosuppression. Stem Cells and Development , 22(1), pp.90-101. link",
+      "order": 1
+    }
+  ],
+  "notes": [
+    "Migrated from the legacy index.html Publications section.",
+    "DOI/PDF fields are only filled when present in legacy content. TODO_CONFIRM_DOI_OR_URL marks a legacy link that appeared duplicated or inconsistent.",
+    "Tags were inferred from titles/citations and should be reviewed by Lab W before publication."
+  ]
+}

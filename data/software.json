@@ -1,0 +1,52 @@
+{
+  "software": [
+    {
+      "name": "RAD",
+      "type": "Web application",
+      "description": "Region Associated DEG is a web tool to identify region associated differentially expressed genes.",
+      "audience": "Researchers identifying region-associated differentially expressed genes",
+      "website": "http://labw.org/rad",
+      "github": "",
+      "documentation": "",
+      "publication": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btab075/6126802",
+      "contact": "",
+      "tags": ["Tools & Databases", "Omics"]
+    },
+    {
+      "name": "huARdb",
+      "type": "Database",
+      "description": "The Human Antigen Receptor Database for interactive clonotype-transcriptome analysis at the single-cell level.",
+      "audience": "Researchers studying antigen receptor repertoires and single-cell immune data",
+      "website": "https://huarc.net/database",
+      "github": "",
+      "documentation": "",
+      "publication": "https://doi.org/10.1093/nar/gkab857",
+      "contact": "",
+      "tags": ["TCR Immunology", "Database", "Single-cell Omics"]
+    },
+    {
+      "name": "germlineTE",
+      "type": "Dataset visualizer",
+      "description": "A single-cell dataset visualizer for germline transposable element research.",
+      "audience": "Researchers exploring germline and transposable element single-cell datasets",
+      "website": "https://labw.org/germlineTE",
+      "github": "",
+      "documentation": "",
+      "publication": "",
+      "contact": "",
+      "tags": ["Single-cell Omics", "Epigenomics", "Data resource"]
+    },
+    {
+      "name": "MSdb",
+      "type": "Expression atlas",
+      "description": "An integrated expression atlas of the human musculoskeletal system.",
+      "audience": "Researchers working on musculoskeletal biology and disease atlases",
+      "website": "https://www.msdb.org.cn/",
+      "github": "",
+      "documentation": "",
+      "publication": "https://doi.org/10.1016/j.isci.2023.106933",
+      "contact": "",
+      "tags": ["Database", "Atlas", "Stem Cell Biology"]
+    }
+  ]
+}
