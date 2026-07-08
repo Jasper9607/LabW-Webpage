@@ -13,7 +13,7 @@
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header" data-site-header>
       <nav class="nav-shell labw-glass-subtle" aria-label="Main navigation">
-        <a class="wordmark" href="index.html" aria-label="Lab W home">Lab W</a>
+        <a class="wordmark" href="index.html" aria-label="Lab W home"><img class="wordmark-logo" src="img/labw_logo_black_home_1_transparent.png" alt="Lab W"></a>
         <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
           <span></span>
           <span></span>
@@ -36,6 +36,21 @@
 
     <main id="main">
       <section class="hero section-band">
+        <div class="tcr-hero-background" aria-hidden="true">
+          <video
+            class="tcr-hero-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            poster="video/tcr_hero_img.png"
+          >
+            <source src="video/tcr-hero-loop.webm" type="video/webm">
+            <source src="video/tcr-hero-loop-muted.mp4" type="video/mp4">
+          </video>
+          <div class="tcr-hero-glass"></div>
+        </div>
         <div class="hero-bg" aria-hidden="true"></div>
         <div class="container hero-grid">
           <div class="hero-copy">
@@ -49,139 +64,53 @@
               <a class="button button-ghost" href="join.html">Join Us</a>
             </div>
           </div>
-          <div class="atlas-visual labw-glass labw-liquid-border" aria-hidden="true">
-            <svg viewBox="0 0 640 520" role="img" focusable="false">
-              <defs>
-                <linearGradient id="atlasLine" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.38"></stop>
-                  <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.28"></stop>
-                  <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.32"></stop>
-                </linearGradient>
-              </defs>
-              <path d="M80 340 C140 210, 246 440, 332 230 S520 122, 570 292" fill="none" stroke="url(#atlasLine)" stroke-width="2"></path>
-              <path d="M96 188 C194 98, 248 228, 336 162 S458 114, 548 182" fill="none" stroke="url(#atlasLine)" stroke-width="1.5"></path>
-              <g class="atlas-spots">
-                <circle cx="100" cy="334" r="7"></circle><circle cx="132" cy="294" r="4"></circle><circle cx="166" cy="246" r="5"></circle>
-                <circle cx="204" cy="326" r="9"></circle><circle cx="244" cy="378" r="5"></circle><circle cx="282" cy="314" r="7"></circle>
-                <circle cx="332" cy="230" r="10"></circle><circle cx="378" cy="186" r="5"></circle><circle cx="420" cy="148" r="8"></circle>
-                <circle cx="456" cy="172" r="4"></circle><circle cx="496" cy="226" r="7"></circle><circle cx="548" cy="282" r="11"></circle>
-                <circle cx="168" cy="152" r="8"></circle><circle cx="214" cy="130" r="5"></circle><circle cx="268" cy="168" r="7"></circle>
-                <circle cx="386" cy="328" r="6"></circle><circle cx="438" cy="356" r="9"></circle><circle cx="514" cy="374" r="5"></circle>
-              </g>
-              <g class="atlas-mini">
-                <circle cx="92" cy="102" r="2"></circle><circle cx="122" cy="118" r="3"></circle><circle cx="146" cy="90" r="2"></circle>
-                <circle cx="474" cy="92" r="3"></circle><circle cx="510" cy="104" r="2"></circle><circle cx="538" cy="82" r="3"></circle>
-                <circle cx="114" cy="426" r="3"></circle><circle cx="148" cy="446" r="2"></circle><circle cx="190" cy="420" r="3"></circle>
-              </g>
-            </svg>
-            <div class="atlas-label label-one">single-cell</div>
-            <div class="atlas-label label-two">spatial omics</div>
-            <div class="atlas-label label-three">TCR</div>
-            <div class="atlas-label label-four">autoimmunity</div>
-            <div class="atlas-panel panel-one">
-              <span>immune states</span>
-              <strong>cross-modal atlas</strong>
-            </div>
-            <div class="atlas-panel panel-two">
-              <span>T cell recognition</span>
-              <strong>repertoire signals</strong>
-            </div>
-          </div>
         </div>
       </section>
 
       <section class="section-band">
         <div class="container">
-          <div class="section-kicker">Research Highlights</div>
+          <div class="section-kicker">About Us</div>
           <div class="section-heading">
-            <h2>Three connected directions, one immune-systems question.</h2>
-            <p>Lab W combines computational method development, single-cell and spatial datasets, and disease-centered interpretation.</p>
+            <h2>Who Are We</h2>
           </div>
-          <div class="feature-grid three">
-            <article class="feature-card labw-glass-subtle">
-              <span class="card-mark">01</span>
-              <h3>Single-cell &amp; Spatial Omics</h3>
-              <p>How do cell states and tissue neighborhoods shift across samples, modalities and disease contexts?</p>
-              <div class="tag-row"><span>single-cell</span><span>spatial</span><span>multi-omics</span></div>
-              <a href="research.html#single-cell-spatial">Read direction</a>
-            </article>
-            <article class="feature-card labw-glass core-focus">
-              <span class="focus-pill">Core Focus</span>
-              <span class="card-mark">02</span>
-              <h3>Computational TCR Immunology</h3>
-              <p>How can TCR repertoires, T cell states and antigen recognition be integrated into interpretable immune maps?</p>
-              <div class="tag-row"><span>TCR repertoire</span><span>specificity</span><span>clonotypes</span></div>
-              <a href="research.html#computational-tcr">Read direction</a>
-            </article>
-            <article class="feature-card labw-glass-subtle">
-              <span class="card-mark">03</span>
-              <h3>Autoimmune Disease Systems Biology</h3>
-              <p>How do immune cell states, clonal expansion and clinical phenotypes connect in autoimmune disease?</p>
-              <div class="tag-row"><span>autoimmunity</span><span>clinical data</span><span>validation</span></div>
-              <a href="research.html#autoimmune-systems">Read direction</a>
-            </article>
+          <div class="about-panel labw-glass-subtle">
+            <p>We are a group of scientists from <a href="http://zje.intl.zju.edu.cn/zje/home/index" target="_blank" rel="noopener">ZJU-UoE Institute</a> working on decoding puzzles in bio-medical sciences. Topics we are interested in include <strong>epigenetic</strong> regulation of transposable elements in stem cells and cancer, <strong>genomics</strong> technology and <strong>bioinformatic</strong> algorithm development.</p>
+            <p>By combining both <strong>wet lab</strong> experimental approaches and <strong>dry lab</strong> computational approaches, we hope to provide our unique expertises in advancing our understandings for bio-medical sciences.</p>
+            <p>我们是一群来自浙江大学爱丁堡大学联合学院的生物医学方向的科学家。我们研究的内容包括干细胞细胞命运决定中的<strong>表观遗传调控机制</strong>、<strong>基因组学大数据挖掘</strong>以及<strong>生物信息算法及工具</strong>的开发。</p>
+            <p>我们实验室由一群来自生物学、临床医学、基础医学、生物医学以及生物信息学不同学科背景的博士后、研究生、科研助理及本科生组成。通过干实验（计算相关）以及湿实验（实验技术）相结合的手段，我们希望以我们独特的视角来研究生物医学中重要的科学问题。</p>
           </div>
         </div>
       </section>
 
       <section class="section-band section-soft">
         <div class="container">
-          <div class="section-heading split">
-            <div>
-              <div class="section-kicker">Selected Publications</div>
-              <h2>Recent work from Lab W and collaborators.</h2>
-            </div>
-            <a class="text-link" href="publications.html">View all publications</a>
+          <div class="section-kicker">Research</div>
+          <div class="section-heading">
+            <h2>We Are Exploring</h2>
+            <p>Two legacy research themes remain visible while the current site points readers to the updated research, people, publication and resource pages.</p>
           </div>
-          <div class="publication-preview" id="home-publications" data-limit="4">
-            <p class="fallback">Loading selected publications...</p>
+          <div class="explore-grid">
+            <article class="explore-card labw-glass-subtle">
+              <img src="img/slide1-optim.png" alt="Biomedical science research illustration" loading="lazy" decoding="async" width="640" height="420">
+              <div>
+                <h3>Biomedical Science</h3>
+                <p>Unmasking cell pluripotency and transposable elements.</p>
+              </div>
+            </article>
+            <article class="explore-card labw-glass-subtle">
+              <img src="img/slide2-optim.png" alt="Bioinformatics research illustration" loading="lazy" decoding="async" width="640" height="420">
+              <div>
+                <h3>Bioinformatics</h3>
+                <p>Data-driven biomedicine, databases and computational immunology algorithms.</p>
+              </div>
+            </article>
           </div>
-        </div>
-      </section>
-
-      <section class="section-band">
-        <div class="container">
-          <div class="section-heading split">
-            <div>
-              <div class="section-kicker">Software &amp; Data</div>
-              <h2>Tools and databases for omics and immune research.</h2>
-            </div>
-            <a class="text-link" href="software.html">Explore software</a>
-          </div>
-          <div class="card-grid" id="home-software" data-limit="4">
-            <p class="fallback">Loading software and data resources...</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-band section-soft">
-        <div class="container">
-          <div class="section-heading split">
-            <div>
-              <div class="section-kicker">Latest News</div>
-              <h2>Recent lab updates.</h2>
-            </div>
-            <a class="text-link" href="news.html">View all news</a>
-          </div>
-          <div class="news-grid" id="home-news" data-limit="5">
-            <p class="fallback">Loading latest news...</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-band">
-        <div class="container compact-grid">
-          <div class="people-preview labw-glass">
-            <div class="section-kicker">People</div>
-            <h2>Led by Wanlu Liu, Lab W brings together computational biology, immunology, clinical medicine and engineering backgrounds.</h2>
-            <p id="home-people-summary">Loading team summary...</p>
+          <div class="home-links" aria-label="Key site sections">
+            <a class="button button-primary" href="research.html">Current research directions</a>
             <a class="button button-secondary" href="people.html">Meet the team</a>
-          </div>
-          <div class="join-preview labw-glass-subtle">
-            <div class="section-kicker">Join Us</div>
-            <h2>We welcome curious researchers who want to connect computation, omics and immune biology.</h2>
-            <p>Open paths include postdocs, graduate students, research assistants and undergraduate interns with backgrounds in bioinformatics, computer science, statistics, immunology, clinical medicine, molecular biology or biomedical engineering.</p>
-            <a class="button button-primary" href="join.html">Join Lab W</a>
+            <a class="button button-secondary" href="publications.html">Publications</a>
+            <a class="button button-secondary" href="software.html">Software &amp; Data</a>
+            <a class="button button-secondary" href="contact.html">Contact Lab W</a>
           </div>
         </div>
       </section>

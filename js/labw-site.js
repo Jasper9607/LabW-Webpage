@@ -205,29 +205,37 @@
 
     if (publications.status === "fulfilled") {
       const container = document.querySelector("#home-publications");
-      const limit = Number(container?.dataset.limit || 4);
-      const list = publications.value.publications.slice(0, limit);
-      container.innerHTML = list.map(publicationCard).join("");
+      if (container) {
+        const limit = Number(container.dataset.limit || 4);
+        const list = publications.value.publications.slice(0, limit);
+        container.innerHTML = list.map(publicationCard).join("");
+      }
     }
 
     if (software.status === "fulfilled") {
       const container = document.querySelector("#home-software");
-      const limit = Number(container?.dataset.limit || 4);
-      container.innerHTML = software.value.software.slice(0, limit).map(softwareCard).join("");
+      if (container) {
+        const limit = Number(container.dataset.limit || 4);
+        container.innerHTML = software.value.software.slice(0, limit).map(softwareCard).join("");
+      }
     }
 
     if (news.status === "fulfilled") {
       const container = document.querySelector("#home-news");
-      const limit = Number(container?.dataset.limit || 5);
-      container.innerHTML = sortedNews(news.value.news).slice(0, limit).map(newsCard).join("");
+      if (container) {
+        const limit = Number(container.dataset.limit || 5);
+        container.innerHTML = sortedNews(news.value.news).slice(0, limit).map(newsCard).join("");
+      }
     }
 
     if (people.status === "fulfilled") {
       const summary = document.querySelector("#home-people-summary");
-      const current = people.value.people.filter((person) => person.status === "current");
-      const pi = current.find((person) => person.group === "pi");
-      const trainees = current.filter((person) => person.group !== "pi").length;
-      summary.textContent = `${pi ? `${pi.name} leads` : "Lab W includes"} ${current.length} current members, including ${trainees} trainees and staff members across computational, biomedical and clinical backgrounds.`;
+      if (summary) {
+        const current = people.value.people.filter((person) => person.status === "current");
+        const pi = current.find((person) => person.group === "pi");
+        const trainees = current.filter((person) => person.group !== "pi").length;
+        summary.textContent = `${pi ? `${pi.name} leads` : "Lab W includes"} ${current.length} current members, including ${trainees} trainees and staff members across computational, biomedical and clinical backgrounds.`;
+      }
     }
 
     showRejected([publications, software, news, people]);
